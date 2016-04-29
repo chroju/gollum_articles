@@ -1,0 +1,13 @@
+tips
+----
+
+### 特殊文字入力
+
+* 改行（^M）は`<C-v><C-m>`。
+  * [VIMで、行末の余分な改行コード（^M）をすべて取り除く - Qiita](http://qiita.com/rohinomiya/items/0521cc3a12048304f8fd)
+
+### folding
+
+* `zo` : 開く（`zO`ですべて開く）
+* `zc` : 閉じる（`zC`ですべて閉じる）
+* [fold - Vim日本語ドキュメント](http://vim-jp.org/vimdoc-ja/fold.html)
