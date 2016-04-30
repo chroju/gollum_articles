@@ -1,6 +1,16 @@
 ssh
 ========
 
+ssh-keygen
+----
+
+鍵長4096bitのRSAで。
+
+```bash
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
+
 FingrePrintの確認省略
 ----
 
