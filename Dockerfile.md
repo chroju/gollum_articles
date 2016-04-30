@@ -1,6 +1,6 @@
 基本的な書き方
 
-```docker
+```dockerfile
 # 元となるイメージの指定。タグまで指定可能。
 FROM alpine:3.3
 # 制作者名
