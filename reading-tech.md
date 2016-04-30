@@ -8,6 +8,7 @@
 * [[データベース徹底攻略|DatabaseThoroughCapture]]
 * [[詳解シェルスクリプト|ClassicShellScripting]]
 * [[初めてのAnsible|AnsibleRuns&Up]]
+* [[暗号技術入門|EntryForEncriptionTechnology]]
 
 Software Design
 ----
