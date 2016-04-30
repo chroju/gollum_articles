@@ -1,7 +1,8 @@
 Docker
 ========
 
-* [[チートシート|DockerCheatSheet]]
+* [[Dockerコマンドチートシート|DockerCheatSheet]]
+* [[Dockerfile]]
 
 CoreOS
 ----
