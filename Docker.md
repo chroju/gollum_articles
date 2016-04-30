@@ -6,7 +6,9 @@ Docker
 CoreOS
 ----
 
-ALpine Linux
+* Dockerホスト用として構成されたOSイメージの小さなOS。
+
+Alpine Linux
 ----
 
 * この記事内で言及あり→ [お前のDockerイメージはまだ重い💢💢💢 // Speaker Deck](https://speakerdeck.com/stormcat24/oqian-falsedockerimezihamadazhong-i)
