@@ -1,6 +1,6 @@
 基本的な書き方
 
-```dockerfile
+```
 # 元となるイメージの指定。タグまで指定可能。
 FROM alpine:3.3
 # 制作者名
@@ -25,6 +25,8 @@ RUN apk add ruby && \
 
 # コンテナ作成時に実行されるコマンドを指定（例えばサービスの開始など）。
 CMD ["echo", "test"]
+# CMDに近いが、docker runの際に渡した引数はENTRYPOINTの引数となる。
+ENTRYPOINT echo test
 
 # 開くポートを指定。
 EXPOSE 80
