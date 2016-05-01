@@ -20,6 +20,8 @@ images
 $ docker images
 # 特定イメージの表示
 $ docker images foo/bar # 完全一致
+# タグのないイメージの表示
+$ docker images -f dangling=true
 ```
 
 build
