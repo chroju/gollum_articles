@@ -102,6 +102,12 @@ package.jsonファイルに必要なパッケージを記載しておき、同�
 $ npm init
 ```
 
+また`scripts`に実行スクリプトを記載しておくことで、`npm run`で実行が可能。
+
+```bash
+$ npm run
+```
+
 詳細は以下。
 
 * [05 - Using a `package.json` | npm Documentation](https://docs.npmjs.com/getting-started/using-a-package.json)
