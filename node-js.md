@@ -1,5 +1,6 @@
-feature
-========
+* サーバーサイドjs
+* Web Server、サーバーサイドスクリプティングあたりが一緒になっている。
+* 位置付けとしてはアプリケーションプラットフォーム。フレームワークとしてAngularJSやExpressが存在する。
 
 install
 ========
@@ -19,57 +20,6 @@ yum
 ```bash
 $ yum install nodejs npm
 ```
-
-running
-========
-
-variables
-========
-
-definition
-----
-
-string
-----
-
-numeric
-----
-
-array
-----
-
-list
-----
-
-grammer
-========
-
-commnt
-----
-
-input/output
-----
-
-if
-----
-
-### true/false
-
-### post if
-
-### ternary operator
-
-switch
-----
-
-loop
-----
-
-function
-----
-
-exception
-----
 
 packages
 ========
