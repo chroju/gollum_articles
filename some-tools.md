@@ -1,3 +1,10 @@
+gibo
+----
+
+* `.gitignore`を言語別に自動生成してくれる。
+
+[simonwhitaker/gibo: A shell script for easily accessing gitignore boilerplates](https://github.com/simonwhitaker/gibo)
+
 Direnv
 ----
 
