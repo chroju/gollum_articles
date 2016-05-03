@@ -27,7 +27,8 @@ Tech
   * [[influxDB]]
 * lang
   * [[go]]
-  * [[node.js|node-js]]
+  * [[javascript]]
+    * [[node.js|node-js]]
   * [[Python]]
   * [[Ruby]]
   * [[Perl]]
