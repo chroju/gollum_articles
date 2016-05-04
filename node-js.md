@@ -52,6 +52,12 @@ package.jsonファイルに必要なパッケージを記載しておき、同�
 $ npm init
 ```
 
+パッケージを追加する場合は`--save`オプションを追加してインストールすることで、package.jsonに依存関係が書き込まれる。開発中のみ使用するパッケージは`--save-dev`とする。
+
+```bash
+$ npm install --save request
+```
+
 また`scripts`に実行スクリプトを記載しておくことで、`npm run`で実行が可能。
 
 ```bash
