@@ -71,6 +71,8 @@ if (err) {
 if
 ----
 
+js
+
 ```js
 if ( i > 0 ) {
   ... ;
@@ -79,6 +81,18 @@ if ( i > 0 ) {
 } else {
   ... ;
 }
+```
+
+coffeeでは括弧類が不要になる。
+
+```coffee
+if i > 0
+  ...
+else if i == 0
+  ...
+else
+  ...
+```
 
 ### true/false
 
@@ -91,6 +105,13 @@ switch
 
 loop
 ----
+
+coffee
+
+```coffee
+for i in [1 .. 10]
+  console.log "Hello! #{i}"
+```
 
 function
 ----
