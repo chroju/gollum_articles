@@ -1,3 +1,11 @@
+作成
+
+```bash
+$ mkdir yourbot
+$ cd yourbot
+$ yo yourbot
+```
+
 起動
 
 ```bash
