@@ -50,6 +50,8 @@ grammer
 commnt
 ----
 
+`//`もしくは`/* */`
+
 operator
 ----
 
@@ -57,6 +59,14 @@ operator
 
 input/output
 ----
+
+* デバッグ的には`console.log`を使う。
+
+```js
+if (err) {
+  console.log(err);
+}
+```
 
 if
 ----
@@ -93,3 +103,5 @@ packages
 
 other
 ========
+
+* `use strict;`宣言で厳格な文法チェックを行う。
