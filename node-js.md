@@ -68,5 +68,14 @@ $ npm run
 
 * [05 - Using a `package.json` | npm Documentation](https://docs.npmjs.com/getting-started/using-a-package.json)
 
+package
+----
+
+### protractor
+
+AngularJS用のテストフレームワークらしい。ウェブブラウザのユーザーアクションを再現してテストを行う。その性質からスクレイピングにも利用可能。
+
+* [AngularJS用テストフレームワーク「Protractor」チュートリアル日本語訳 - Qiita](http://qiita.com/weed/items/30098f7be2f753580f63)
+
 other
 ========
