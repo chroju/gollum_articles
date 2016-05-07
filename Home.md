@@ -7,6 +7,7 @@ Tech
   * [[GitHub Flow]]
   * [[Operation]]
   * [[Development Standard]]
+  * [[Programming Paradigm]]
 * Infrastructure
   * [[Network]]
   * [[Linux]]
