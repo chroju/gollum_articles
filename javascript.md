@@ -100,6 +100,12 @@ else
 
 ### ternary operator
 
+coffeeでは存在しない。jsでは以下。
+
+```js
+x = flag ? 1 : 0;
+```
+
 switch
 ----
 
@@ -115,6 +121,26 @@ for i in [1 .. 10]
 
 function
 ----
+
+js
+
+```js
+function foo(a, b) {
+  return a * b;
+}
+# 無名関数
+var bar = function(c) { return c + c };
+```
+
+coffee
+
+```coffee
+foo = (a, b) ->
+  a * b
+
+bar = (c) ->
+  c + c
+```
 
 exception
 ----
