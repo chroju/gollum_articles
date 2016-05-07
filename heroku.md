@@ -18,3 +18,12 @@ $ heroku ps --app appname
 # ログ確認
 $ heroku logs --tail --app appname
 ```
+
+how-to
+----
+
+### 変数をセットしたい
+
+`heroku config`で環境変数を設定する。
+
+* [[heroku] 環境変数の操作 - Qiita](http://qiita.com/satomyumi/items/18db3c97734f32ebdfde)
