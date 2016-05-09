@@ -18,9 +18,10 @@ Tech
 * Infrastructure as Code
   * [[Ansible]]
   * [[Serverspec]]
-  * [[Capistrano]]
+  * [[fabric]]
   * [[vagrant]]
   * [[Docker]]
+  * [[Terraform]]
 * DB
   * [[MySQL]]
   * [[Redis]]
@@ -62,4 +63,5 @@ No Tech
 * [[資産運用|AssetManagement]]
 * [[経済|Economy]]
 * [[科学|Chemistry]]
+* [[Art]]
 * [[Design]]
