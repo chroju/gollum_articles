@@ -10,6 +10,11 @@
 * [[初めてのAnsible|AnsibleRuns&Up]]
 * [[暗号技術入門|EntryForEncriptionTechnology]]
 
+技術書以外
+----
+
+* [[ちょっとした勉強のコツ|ALittleTipsForStudy]]
+
 Software Design
 ----
 
