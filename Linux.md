@@ -4,6 +4,7 @@
 * [[service]]
 * [[jobs]]
 * [[dmesg]]
+* [[oom-killer]]
 
 ## Command
 
