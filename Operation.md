@@ -17,6 +17,12 @@ pkill
 
 vmstat
 sar
+
+```bash
+# メモリの使用状況確認
+$ sar -r
+```
+
 df
 
 ```bash
