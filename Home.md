@@ -55,6 +55,7 @@ Tech
   * [[some tools]]
 
 * [[読書記録|reading-tech]]
+* [[links]]
 
 No Tech
 ==========
