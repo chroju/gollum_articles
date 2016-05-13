@@ -60,6 +60,7 @@ Tech
 No Tech
 ==========
 
+* [[歌唱|VoiceMusic]]
 * [[建築|Architecture]]
 * [[資産運用|AssetManagement]]
 * [[経済|Economy]]
