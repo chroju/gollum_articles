@@ -38,6 +38,10 @@ string
 if ( str.match(/foo/) ) {
 
 }
+// regexp
+if ( /foo/.exec("foo") ) {
+
+}
 ```
 
 numeric
@@ -101,6 +105,8 @@ else
 
 ### true/false
 
+* `false`は"", 0, undefined, false, null
+
 ### post if
 
 ### ternary operator
@@ -113,6 +119,15 @@ x = flag ? 1 : 0;
 
 switch
 ----
+
+```js
+switch (foo) {
+  case 0: console.log("0"); break;
+  case 1: console.log("1"); break;
+  case 0: console.log("2"); break;
+  default: console.log("other");
+}
+```
 
 loop
 ----
