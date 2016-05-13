@@ -132,11 +132,14 @@ switch (foo) {
 loop
 ----
 
-coffee
+coffeeではオブジェクトからのループは`for of`になる。
 
 ```coffee
 for i in [1 .. 10]
   console.log "Hello! #{i}"
+
+for key, val of json
+  console.log(key, val)
 ```
 
 function
