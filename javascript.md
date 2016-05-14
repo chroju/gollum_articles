@@ -3,6 +3,12 @@ coffeeとjsの比較は以下参照。
 * [CoffeeScript入門（前編） ― CoffeeScriptの基本構文 - Build Insider](http://www.buildinsider.net/web/rubyonrails4/0901)
 * [CoffeeScript入門（後編） ― 関数／オブジェクト指向構文／即時関数 - Build Insider](http://www.buildinsider.net/web/rubyonrails4/0902)
 
+coffeeのデバッグ
+
+```bash
+$ cat foo.coffee | coffee -s
+```
+
 feature
 ========
 
