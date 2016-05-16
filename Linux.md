@@ -14,13 +14,7 @@
 * [[xargs]]
 * [[テキスト処理コマンド|CommandsAboutText]]
 * [[メール関連コマンド|LinuxMail]]
-
-### curl
-
-* `-s` : サイレントモード。
-* `-S` : `-s`と併用するとエラーだけは出力してくれる。
-* `--data-urlencode` : クエリをエンコードしてくれる。エンコードしないものは`--data`。
-  [WebAPIリクエスト仕様書としてcurlコマンドのご提案 - Qiita](http://qiita.com/Hiraku/items/dfda2f8a5353b0742271)
+* [[curlとwget|CurlAndWget]]
 
 ### alternatives
 
