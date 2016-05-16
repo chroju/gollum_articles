@@ -16,6 +16,12 @@
 * [[メール関連コマンド|LinuxMail]]
 * [[curlとwget|CurlAndWget]]
 
+### script
+
+ログ取得コマンド。`exit`か`ctrl-d`するまでログをテキストファイルに取り続ける。制御文字まで含んでしまうのが難点。
+
+[scriptコマンドで作業ログを記録 ｜ Developers.IO](http://dev.classmethod.jp/server-side/os/scriptcommand/)
+
 ### alternatives
 
 同一機能を持つ複数コマンドや、複数バージョンのOS内共存を可能とするコマンド。そのコマンドがどのパスを参照するかを一覧化して切り替える。Javaの複数バージョン共存に用いられることが多い。
