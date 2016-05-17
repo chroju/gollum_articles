@@ -28,6 +28,10 @@ foo
 
 [Linux のヒント: Bash のテスト関数と比較関数](http://www.ibm.com/developerworks/jp/linux/library/l-bash-test.html)
 
+比較の演算子は下記がとても詳しい。
+
+[if 文と test コマンド | UNIX & Linux コマンド・シェルスクリプト リファレンス](http://shellscript.sunone.me/if_and_test.html#%E6%96%87%E5%AD%97%E5%88%971%E3%81%A8%E6%96%87%E5%AD%97%E5%88%972%E3%81%AF%E7%AD%89%E3%81%97%E3%81%84%E3%81%8B:ed775c34e441eb16a91481d087cc1a74)
+
 ループ
 ----
 
