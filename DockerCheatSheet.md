@@ -46,3 +46,10 @@ exec
 $ docker exec -it container_name /bin/bash
 ```
 
+stop/start
+```bash
+# コンテナの停止
+$ docker stop id
+# コンテナの再開
+$ docker start id
+```
