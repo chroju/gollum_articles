@@ -21,6 +21,13 @@ SystemV系等のプログラム制御。
 1. `/etc/inittab`を元として、`/etc/rc.d/rc.sysinit`よりブート時の処理（初期化や読み込み）を実施。
 1. 同様に`inittab`からrunlevelに応じたrcスクリプトを`/etc/rcX.d/`配下から実行。
 
+### rcスクリプト
+
+* 実体としてはサービス制御のためのシェルスクリプト。
+* `/etc/rcX.d`配下に配置されるのはシンボリックリンク。実物は`/etc/init.d`配下。
+* `service`コマンドによる制御と同様に`start`や`stop`が行えるが、スクリプトを直接実行するのではなく、`service`を通すのが望ましい。
+  参考：[デーモンの起動・終了にはserviceコマンドを利用しよう - インフラエンジニアway - Powered by HEARTBEATS](http://heartbeats.jp/hbblog/2013/06/service-start-stop.html)
+
 
 参考
 ----
