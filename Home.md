@@ -16,15 +16,18 @@ Tech
 * XaaS
   * [[AWS]]
   * [[heroku]]
+* Virtualization
+  * [[VMware vSphere]]
+  * [[Docker]]
 * Infrastructure as Code
   * [[Ansible]]
   * [[Serverspec]]
   * [[fabric]]
   * [[vagrant]]
-  * [[Docker]]
   * [[Terraform]]
 * Middleware
   * [[nginx]]
+  * [[Elasticsearch]]
 * DB
   * [[MySQL]]
   * [[Redis]]
@@ -44,7 +47,6 @@ Tech
   * [[hugo]]
   * [[git]]
   * [[gollum]]
-  * [[Elasticsearch]]
   * [[hubot]]
 * FrontEnd
   * [[html5]]
