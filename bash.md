@@ -88,6 +88,8 @@ echo結果に文字装飾を行う設定。エスケープが必要なので`-e`
 
 * [Use the Unofficial Bash Strict Mode (Unless You Looove Debugging)](http://redsymbol.net/articles/unofficial-bash-strict-mode/)
   * デバッグをより厳密に行うための基準。
+* [ShellCheck – shell script analysis tool](http://www.shellcheck.net/)
+  * こわいくらいstrictなlint。
 
 参考
 ----
