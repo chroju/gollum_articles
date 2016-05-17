@@ -1,6 +1,24 @@
 * [[基礎文法|BashGrammers]]
 * [[コーディングスタイル|BashCodingStyle]]
 
+配列
+----
+
+```bash
+# 宣言
+$ array=(foo bar baz)
+# 要素へのアクセス
+$ array[1]=hoge
+$ echo ${array[@]}
+foo hoge baz
+# 要素数を確認
+$ echo ${#array}
+3
+# 添字指定がなければ[0]へのアクセスになる
+$ echo ${array}
+foo
+```
+
 コマンド
 ----
 
