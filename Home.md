@@ -42,6 +42,7 @@ Tech
   * [[Perl]]
   * [[bash]]
   * [[cmd]]
+　　* [[Powershell]]
   * [[VBScript]]
 * tools
   * [[hugo]]
