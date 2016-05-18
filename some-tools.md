@@ -26,3 +26,9 @@ Porg(Paco)
 ソースコードからインストールしたソフトウェアの管理ツール。PacoはDeprecated。
 
 * [pacoからporgへ - Qiita](http://qiita.com/pasela/items/eea4a9cbbd54ad118d09)
+
+
+API
+========
+
+* 為替 [[小ネタ]為替レートを簡単に取得する - Qiita](http://qiita.com/chromabox/items/a1323225bae146c80bec)
