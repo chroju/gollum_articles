@@ -1,5 +1,6 @@
 * [[基礎文法|BashGrammers]]
 * [[コーディングスタイル|BashCodingStyle]]
+* [Qiitaに自分でまとめたやつ](http://qiita.com/chroju/items/7af3fd5faa26de4067f0)
 
 配列
 ----
