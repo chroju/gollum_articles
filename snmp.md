@@ -26,6 +26,8 @@ snmpwalk
 
 ```bash
 $ snmpwalk -v 2c -c community hostname OID
+# 全件取得（※かなり多いので注意）
+$ snmpwalk -v 2c -c community hostname .
 ```
 
 snmptranslate
@@ -42,4 +44,5 @@ $ snmptranslate OID
 * [TCP/IP - SNMPとは](http://www.infraexpert.com/study/tcpip21.html)
 * [SNMPによるネットワークモニタリング「第2版」：第8回　SNMPによる異常値検出テクニック (1/7) - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/0705/31/news042.html)
 * [セキュリティ対策の「ある視点」（10）：SNMPコミュニティ名、そのデフォルトの価値は (1/4) - ＠IT](http://www.atmarkit.co.jp/ait/articles/0807/01/news167.html)
-
+* [snmpでlinuxのdisk パーティション監視 - うまいぼうぶろぐ](http://hogem.hatenablog.com/entry/2015/09/26/233000)
+  * snmpで目的の情報を取るまでってこうやるんだぜという参考に。
