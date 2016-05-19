@@ -11,6 +11,7 @@
 
 ## Command
 
+* [[uname]]
 * [[rsync]]
 * [[expect]]
 * [[less]]
