@@ -1,5 +1,6 @@
 ## Kernel
 
+* [[起動処理|LinuxBooting]]
 * [[SIGNAL]]
 * [[service]]
 * [[jobs]]
