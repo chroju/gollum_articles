@@ -12,6 +12,19 @@ rpmとyum
 rpm
 ----
 
+```bash
+# インストール
+$ rpm -ivh package
+# アップデート
+$ rpm -Uvh package
+# インストール済みの全パッケージを検索
+$ rpm -qa
+# コマンドが属しているパッケージを検索
+$ rpm -qf command
+# アンインストール
+$ rpm -e package
+```
+
 * changelog確認用のオプションが存在する。
 
 ```bash
