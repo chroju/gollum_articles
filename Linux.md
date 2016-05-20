@@ -18,6 +18,7 @@
 * [[xargs]]
 * [[テキスト処理コマンド|CommandsAboutText]]
 * [[メール関連コマンド|LinuxMail]]
+* [[OperationCommands]]
 * [[curlとwget|CurlAndWget]]
 
 ### script
