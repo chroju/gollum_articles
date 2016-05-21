@@ -22,6 +22,35 @@ yum
 $ yum install nodejs npm
 ```
 
+非同期
+========
+
+Node.jsでは非同期の関数が多い模様。非同期関数の結果を引き渡し、後続で処理を実行させる仕組みが **コールバック** 。Node.jsはシングルスレッドなので、非同期関数が呼ばれるとすぐに`undefined`を返して関数は一時停止し、呼び出し元の処理が終わったあとで非同期関数の実処理を実行、その後コールバックへと流れる。
+
+* 参照：[はじめてのNode.js：Node.jsのイベントシステムを知る 2ページ | OSDN Magazine](https://osdn.jp/magazine/13/03/18/0939236/2)
+
+コールバック地獄
+----
+
+複数の関数を連続して実行させようとすると、コールバックが連続してネストしていくので、視認性が悪くなる。俗に「コールバック地獄」と呼ぶ。
+
+* 参照：[Node.jsでコールバック関数を書く - Qiita](http://qiita.com/Hitsuji/items/2f70405ed7f0442ea4be)
+
+async
+----
+
+パラレル処理や連続処理を実現する。非同期処理の同期的対応のためのモジュール。
+
+[caolan/async: Async utilities for node and the browser](https://github.com/caolan/async)
+
+Promise
+----
+
+効果としてはほぼasyncと同等だが、ECMA6で取り入れられている標準機能。
+
+* [Node.jsエンジニアなら2014年内に知っておきたいPromise入門 | Tokyo Otaku Mode Blog](http://blog.otakumode.com/2014/09/17/nodejs-promise/)
+* [今更だけどPromise入門 - Qiita](http://qiita.com/koki_cheese/items/c559da338a3d307c9d88)
+
 packages
 ========
 
