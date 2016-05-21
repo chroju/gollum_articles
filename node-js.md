@@ -78,5 +78,11 @@ AngularJS用のテストフレームワークらしい。ウェブブラウザ�
 
 * [AngularJS用テストフレームワーク「Protractor」チュートリアル日本語訳 - Qiita](http://qiita.com/weed/items/30098f7be2f753580f63)
 
+### selenium-webdriver
+
+同様にウェブブラウザのテストフレームワーク。
+
+* [selenium/javascript/node/selenium-webdriver at master · SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium/tree/master/javascript/node/selenium-webdriver)
+
 other
 ========
