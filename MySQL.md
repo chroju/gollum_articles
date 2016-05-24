@@ -15,6 +15,12 @@ MySQL
 
 ```bash
 $ mysql -h hostname -P port -u user -p [password]
+# sqlコマンドを引数で与えて実行
+$ mysql -e 'SQL COMMAND'
+# 表枠を表示しない / この際自動で特殊文字はエスケープされるが、-rでエスケープ解除できる
+$ mysql -s -r
+# カラム名を表示しない
+$ mysql -N
 ```
 
 ### 一覧表示
