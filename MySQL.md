@@ -53,6 +53,11 @@ log
 
 `/var/mysql/data/`あたりを探る。
 
+dual
+----
+
+[the Snow Color: MySQLのDUAL表](http://thesnowcolor.blogspot.jp/2013/01/mysqldual.html)
+
 Replication
 ----
 
