@@ -8,7 +8,8 @@ tips
 
 ### 特殊文字入力
 
-* 改行（^M）は`<C-v><C-m>`。
+* 特殊文字は`<C-v>`に続けて目的のキーを押すことで入力する。
+* 改行（^M）は`<C-v><C-m>`もしくはEnter。
   * [VIMで、行末の余分な改行コード（^M）をすべて取り除く - Qiita](http://qiita.com/rohinomiya/items/0521cc3a12048304f8fd)
 
 ### folding
