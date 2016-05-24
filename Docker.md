@@ -4,6 +4,21 @@ Docker
 * [[Dockerコマンドチートシート|DockerCheatSheet]]
 * [[Dockerfile]]
 
+Docker Compose
+----
+
+* 例えばWebとDBで2コンテナ、といった複数コンテナから成るサービスを制御する。
+* yamlでcompose用のファイルを書き、`docker compose`コマンドにより複数コンテナを一律に扱う。
+
+Docker Swarm
+----
+
+* 複数のDockerホスト制御。どのホストでどのコンテナを動かすか？という部分を担う。
+
+### 参照
+
+* [今だからこそ知りたい Docker Compose/Swarm 入門](http://www.slideshare.net/zembutsu/introduction-to-docker-compose-and-swarm)
+
 CoreOS
 ----
 
