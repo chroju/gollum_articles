@@ -52,6 +52,16 @@ do
 done
 ```
 
+### while
+
+`read`と組み合わせて標準入力から1行ずつ読み込んで処理する。
+
+```bash
+while read i; do
+  echo $i
+done < input.txt
+```
+
 算術展開
 ----
 
