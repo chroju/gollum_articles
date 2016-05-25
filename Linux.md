@@ -1,3 +1,7 @@
+## Distribution
+
+* [[CentOS]]
+
 ## Kernel
 
 * [[起動処理|LinuxBooting]]
