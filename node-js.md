@@ -41,7 +41,9 @@ async
 
 パラレル処理や連続処理を実現する。非同期処理の同期的対応のためのモジュール。
 
-[caolan/async: Async utilities for node and the browser](https://github.com/caolan/async)
+* [caolan/async: Async utilities for node and the browser](https://github.com/caolan/async)
+* [JavaScriptのasync.jsでwaterfallとseries、parallelの違い - Qiita](http://qiita.com/takeharu/items/84ffbee23b8edcbb2e21)
+* [Node.jsではforEachでなくasync.eachを使おう - Qiita](http://qiita.com/ishisak@github/items/cee2811a5a131d4ef946)
 
 Promise
 ----
@@ -50,6 +52,7 @@ Promise
 
 * [Node.jsエンジニアなら2014年内に知っておきたいPromise入門 | Tokyo Otaku Mode Blog](http://blog.otakumode.com/2014/09/17/nodejs-promise/)
 * [今更だけどPromise入門 - Qiita](http://qiita.com/koki_cheese/items/c559da338a3d307c9d88)
+* [CoffeeScriptでasyncとpromise - Qiita](http://qiita.com/ksato9700/items/73b2861595c2829e06f1#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB)
 
 packages
 ========
