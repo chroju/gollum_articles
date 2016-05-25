@@ -221,3 +221,4 @@ IFS=$'\n\t'
 * [使いやすいシェルスクリプトを書く | SOTA](http://deeeet.com/writing/2014/05/18/shell-template/)
 * [Use the Unofficial Bash Strict Mode (Unless You Looove Debugging)](http://redsymbol.net/articles/unofficial-bash-strict-mode/)
 * [O'Reilly Japan - 詳解 シェルスクリプト](https://www.oreilly.co.jp/books/4873112672/)
+* [Bashのよくある間違い | Yakst](https://yakst.com/ja/posts/2929)
