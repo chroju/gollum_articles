@@ -82,4 +82,10 @@ MySQLの醍醐味？ 基本的なフローは以下。
 
 * [MySQLリレーログの仕様を学ぶ | OpenGroove](http://open-groove.net/mysql/binlog-relay-log/)
 * [MySQLのレプリケーションでLast_SQL_Errno: 1594が出た場合の対処方法 | Mindcircus.jp](http://www.mindcircus.jp/archives/5758)
+
+Trouble
+----
+
 * [誰も教えてくれなかったMySQLの障害解析方法 - Qiita](http://qiita.com/muran001/items/14f19959d4723ffc29cc)
+* [漢(オトコ)のコンピュータ道: もしもデータベースサーバがクラッシュしたら](http://nippondanji.blogspot.jp/2009/02/blog-post_23.html)
+* [MySQLで処理に長時間かかっている複数クエリをまとめて殺す方法](http://tech.basicinc.jp/MySQL/2014/04/06/mysql_processlist_kill/)
