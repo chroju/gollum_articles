@@ -1,3 +1,5 @@
+[DNSの仕組みと運用（1）：DNSの仕組みの基本を理解しよう - ＠IT](http://www.atmarkit.co.jp/ait/articles/0112/18/news001.html)
+
 BIND
 ----
 現在広く普及しているDNSサーバー。ISCライセンスに基づくフリーソフトウェア。
