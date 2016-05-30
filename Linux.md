@@ -16,6 +16,7 @@
 
 ## Command
 
+* [[diff]]
 * [[uname]]
 * [[rsync]]
 * [[expect]]
