@@ -34,6 +34,10 @@ CDN。
 
 [AWS再入門 Amazon CloudFront編 ｜ Developers.IO](http://dev.classmethod.jp/cloud/cm-advent-calendar-2015-aws-re-entering-cloudfront/)
 
+### AWS Key Management Service
+
+暗号化キーを簡単に作成、管理し、AWS各リソースの暗号化を行う。
+
 ### AWS Direct Connect
 
 [AWS Black Belt Techシリーズ AWS Direct Connect](http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-direct-connect)
