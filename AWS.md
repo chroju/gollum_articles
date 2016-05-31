@@ -16,6 +16,12 @@ S3やGitHub上のアプリケーションコードを決められた箇所へ配
 
 [AWS再入門 AWS CodeDeploy 編 ｜ Developers.IO](http://dev.classmethod.jp/cloud/aws/cm-advent-calendar-2015-aws-re-entering-codedeploy/)
 
+### AWS CodePipeline
+
+CDツール。CodeDeployやElastiBeanstalkと連携して、コードのコミットをトリガーに自動でデプロイを行う。
+
+[AWS CodePipeline触ってみた « サーバーワークス エンジニアブログ](http://blog.serverworks.co.jp/tech/2015/07/15/aws-codepipeline/)
+
 ### Amazon Inspector
 
 EC2にエージェントを入れるとCVEの該当有無チェックやランタイム解析を自動で行なってくれる。
