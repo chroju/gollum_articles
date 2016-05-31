@@ -8,6 +8,7 @@
 * [[データベース徹底攻略|DatabaseThoroughCapture]]
 * [[詳解シェルスクリプト|ClassicShellScripting]]
 * [[初めてのAnsible|AnsibleRuns&Up]]
+* [[ヘルシープログラマ|TheHealthyProgrammer]]
 * [[暗号技術入門|EntryForEncriptionTechnology]]
 
 技術書以外
