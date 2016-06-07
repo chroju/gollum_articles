@@ -3,6 +3,11 @@
 * [[Amazon SNS]]
 * [[AWS Lambda]]
 
+References
+----
+
+* http://status.aws.amazon.com/ 各サービスのステータス一覧。RSS配信あり。
+
 Other Services
 ----
 
@@ -21,6 +26,10 @@ S3やGitHub上のアプリケーションコードを決められた箇所へ配
 CDツール。CodeDeployやElastiBeanstalkと連携して、コードのコミットをトリガーに自動でデプロイを行う。
 
 [AWS CodePipeline触ってみた « サーバーワークス エンジニアブログ](http://blog.serverworks.co.jp/tech/2015/07/15/aws-codepipeline/)
+
+### AWS CloudFormation
+
+AWSの構成をjsonでインポートして自動構築。AWS as a code。
 
 ### Amazon Inspector
 
@@ -41,3 +50,22 @@ CDN。
 ### AWS Direct Connect
 
 [AWS Black Belt Techシリーズ AWS Direct Connect](http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-aws-direct-connect)
+
+### AWS CloudWatch
+
+メトリクス監視。
+
+* Logs: awslogsやvpc flow logs等、ロギングサービスから連携を受けてログを溜める。
+* Events: メトリクスの閾値超過といったイベントをトリガーにアクションをキックする。
+
+### AWS Config
+
+構成変更のロギング。有効化することで使用可能になる。無償だが保存先S3バケット料がかかる。Config Rulesで構成変更の自動チェックができる。
+
+### AWS CloudTrail
+
+APIコールのロギング。
+
+### Amazon SQS
+
+キューサービス。SNS等から連携されたキューメッセージをストック。エンドポイント（URL等）へのアクセスに応じてsendする。
