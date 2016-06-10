@@ -1,4 +1,5 @@
 * [[aws-cli]]
+* [[Amazon EC2]]
 * [[Amazon ECS]]
 * [[Amazon SNS]]
 * [[AWS Lambda]]
