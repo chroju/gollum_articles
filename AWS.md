@@ -4,6 +4,7 @@
 * [[Amazon ECS]]
 * [[Amazon S3]]
 * [[Amazon SNS]]
+* [[Amazon SQS]]
 * [[AWS Lambda]]
 
 References
@@ -73,7 +74,3 @@ CDN。
 ### AWS CloudTrail
 
 APIコールのロギング。
-
-### Amazon SQS
-
-キューサービス。SNS等から連携されたキューメッセージをストック。エンドポイント（URL等）へのアクセスに応じてsendする。
