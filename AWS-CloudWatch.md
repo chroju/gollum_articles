@@ -7,3 +7,42 @@
 
 * Logs: awslogsやvpc flow logs等、ロギングサービスから連携を受けてログを溜める。
 * Events: メトリクスの閾値超過といったイベントをトリガーにアクションをキックする。
+
+cli
+----
+
+存在するメトリクスをリストアップ
+
+```bash
+$ aws cloudwatch list-metrics --namespace AWS/EC2 --dimensions "Name=InstanceId,Value=i-xxxxxxxx" --metric-name CPUCreditUsage
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/EC2",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0df49b92"
+                }
+            ],
+            "MetricName": "CPUCreditUsage"
+        }
+    ]
+}
+```
+
+あるメトリクスの値を取得
+
+```bash
+$ aws cloudwatch get-metric-statistics --namespace AWS/EC2 --dimensions "Name=InstanceId,Value=i-xxxxxxxx" --metric-name CPUCreditUsage --start-time `date -u -d "5 mins ago" '+%FT%TZ'` --end-time `date -u '+%FT%TZ'` --period 300 --statistics Average
+{
+    "Datapoints": [
+        {
+            "Timestamp": "2016-06-14T09:52:00Z",
+            "Average": 0.0,
+            "Unit": "Count"
+        }
+    ],
+    "Label": "CPUCreditUsage"
+}
+```
