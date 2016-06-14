@@ -46,3 +46,8 @@ $ aws cloudwatch get-metric-statistics --namespace AWS/EC2 --dimensions "Name=In
     "Label": "CPUCreditUsage"
 }
 ```
+
+参考
+----
+
+* [[JAWS-UG CLI] CloudWatch:#1 メトリックを見る (SNS) - Qiita](http://qiita.com/tcsh/items/e2184f8c7c283e93b167)
