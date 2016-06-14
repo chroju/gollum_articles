@@ -50,6 +50,7 @@ Tech
 * tools
   * [[hugo]]
   * [[git]]
+  * [[svn]]
   * [[gollum]]
   * [[hubot]]
 * FrontEnd
