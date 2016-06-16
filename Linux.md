@@ -44,6 +44,7 @@
 ## Package
 
 * [[RPM]]
+* [[APT]]
 
 ## Disk
 
