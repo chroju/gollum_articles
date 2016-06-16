@@ -13,4 +13,7 @@ secret_key     ****************9DO2              env
     region           ap-northeast-1              env    AWS_DEFAULT_REGION
 ```
 
+output
+----
 
+基本はjson。`--output`オプションで`text`と`table`が選べる。
