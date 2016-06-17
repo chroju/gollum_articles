@@ -2,6 +2,7 @@ Systemd
 ----
 
 * initシステムの後継。CentOSではVer.7より標準。
+* わかりやすい解説→ [「Systemd」を理解する ーシステム起動編ー | ギークを目指して](http://equj65.net/tech/systemd-boot/)
 
 ### コマンド
 
