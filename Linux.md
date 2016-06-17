@@ -17,6 +17,7 @@
 
 ## Command
 
+* [[GNU]]
 * [[diff]]
 * [[uname]]
 * [[rsync]]
