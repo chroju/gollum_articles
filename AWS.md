@@ -1,6 +1,8 @@
 References
 ----
 
+[【備忘録】AWSの最新情報が公開される場所をまとめてみた ｜ Developers.IO](http://dev.classmethod.jp/cloud/aws/latest-information-about-aws/)
+
 ### Info
 
 * [Release Notes : Amazon Web Services](http://aws.amazon.com/releasenotes)
