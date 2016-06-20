@@ -14,6 +14,7 @@ References
 * [AWS アーキテクチャーセンター | AWS](http://aws.amazon.com/jp/architecture/)
 * [ホワイトペーパー | AWS](https://aws.amazon.com/jp/whitepapers/)
 * [セキュリティリソース - AWS クラウドセキュリティ | AWS](http://aws.amazon.com/jp/security/security-resources/)
+* [コンプライアンスリソース –アマゾン ウェブ サービス (AWS)](http://aws.amazon.com/jp/compliance/resources/)
 * [AWS_Security_Best_Practices.pdf](http://media.amazonwebservices.com/jp/wp/AWS_Security_Best_Practices.pdf)
 
 Services
