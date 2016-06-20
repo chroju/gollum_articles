@@ -1,3 +1,22 @@
+References
+----
+
+### Info
+
+* [Release Notes : Amazon Web Services](http://aws.amazon.com/releasenotes)
+* http://status.aws.amazon.com/ 各サービスのステータス一覧。RSS配信あり。
+
+### Whitepaper
+
+* [AWS運用チェックリスト (PDF)](https://d0.awsstatic.com/whitepapers/aws-operational-checklists.pdf)
+* [AWS アーキテクチャーセンター | AWS](http://aws.amazon.com/jp/architecture/)
+* [ホワイトペーパー | AWS](https://aws.amazon.com/jp/whitepapers/)
+* [セキュリティリソース - AWS クラウドセキュリティ | AWS](http://aws.amazon.com/jp/security/security-resources/)
+* [AWS_Security_Best_Practices.pdf](http://media.amazonwebservices.com/jp/wp/AWS_Security_Best_Practices.pdf)
+
+Services
+----
+
 * [[aws-cli]]
 * [[AWS Billing]]
 * [[Amazon EC2]]
@@ -7,14 +26,6 @@
 * [[Amazon SNS]]
 * [[Amazon SQS]]
 * [[AWS Lambda]]
-
-References
-----
-
-* http://status.aws.amazon.com/ 各サービスのステータス一覧。RSS配信あり。
-
-Other Services
-----
 
 ### Amazon ElasticBeanstalk
 
@@ -47,6 +58,12 @@ EC2にエージェントを入れるとCVEの該当有無チェックやラン�
 CDN。
 
 [AWS再入門 Amazon CloudFront編 ｜ Developers.IO](http://dev.classmethod.jp/cloud/cm-advent-calendar-2015-aws-re-entering-cloudfront/)
+
+### Amazon SES
+
+* メール送受信サービス。従来は送信だけだったが受信も可能になった。
+  * [[新機能]Amazon SES でメール受信が出来るようになりました！ ｜ Developers.IO](http://dev.classmethod.jp/cloud/receiving-email-with-amazon-ses/)
+* メール送信には審査が必要（SPAMでの使用を避ける意図）。
 
 ### AWS Key Management Service
 
