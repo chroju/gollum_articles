@@ -30,6 +30,12 @@ Services
 * [[Amazon SQS]]
 * [[AWS Lambda]]
 
+### AWS Trusted Advisor
+
+AWSベストプラクティスの適用状態を自動審査してくれるサービス。
+
+[AWS再入門 AWS Trusted Advisor編 ｜ Developers.IO](http://dev.classmethod.jp/cloud/aws/cm-advent-calendar-2015-getting-started-again-aws-td/)
+
 ### Amazon ElasticBeanstalk
 
 PaaS。アプリを選択するとそれに必要なEC2等を勝手に構築してくれる。デプロイはzipファイルをアップロードするだけでOK。開発、ステージング、本番といった環境の棲み分けもできる。heroku的だが、構築したリソース分の課金が発生するため注意は必要。
