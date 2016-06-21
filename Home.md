@@ -10,6 +10,7 @@ Tech
   * [[Programming Paradigm]]
   * [[ITIL]]
 * Infrastructure
+  * [[Computer]]
   * [[Network]]
   * [[Linux]]
   * [[Security]]
