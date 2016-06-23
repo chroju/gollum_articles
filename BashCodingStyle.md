@@ -207,6 +207,12 @@ IFS=$'\n\t'
 
 基本的なデバッグには`set -x`を用いる。
 
+### ShellCheck
+
+[ShellCheck – shell script analysis tool](http://www.shellcheck.net/)
+
+オンラインlint。わりと厳しめ。
+
 ## その他
 
 * 対話式の入力は可能な限り行わない（別のツールとの連携時に`expect`が必要になったり、汎用性が下がる）。
