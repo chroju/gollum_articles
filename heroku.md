@@ -12,6 +12,8 @@ What is heroku
 Heroku Toolbelt
 ----
 
+[Herokuのコマンドメモ - Qiita](http://qiita.com/s-kiriki/items/3f9b1926d85aaa65c694)
+
 ```bash
 # アプリの状態確認
 $ heroku ps --app appname
