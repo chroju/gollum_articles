@@ -22,6 +22,12 @@ $ export GOPATH=$HOME/.go
 
 `go install`や`go get`で外部ライブラリを導入できる。
 
+### glock
+
+[GitHub - robfig/glock](https://github.com/robfig/glock)
+
+依存しているGitHub上のライブラリ等を、バージョン固定するためのツール。
+
 
 コンパイル
 ----
