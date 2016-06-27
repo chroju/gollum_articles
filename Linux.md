@@ -19,6 +19,7 @@
 ## Command
 
 * [[GNU]]
+* [[make]]
 * [[diff]]
 * [[uname]]
 * [[rsync]]
