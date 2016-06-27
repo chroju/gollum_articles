@@ -28,6 +28,12 @@ $ export GOPATH=$HOME/.go
 
 依存しているGitHub上のライブラリ等を、バージョン固定するためのツール。
 
+### go-bindata
+
+[go-bindata でコンパイル時にリソースを埋め込んじゃおう！ - Qiita](http://qiita.com/ikawaha/items/c02d84cfd00f8f442500)
+
+指定したリソースをバイナリ化できる。
+
 
 コンパイル
 ----
