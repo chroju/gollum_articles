@@ -5,7 +5,7 @@
 
 付帯サービスとしてLogsやEventがある。
 
-* Logs: awslogsやvpc flow logs等、ロギングサービスから連携を受けてログを溜める。
+* Logs: awslogsやvpc flow logs、CloudTrail等、ロギングサービスから連携を受けてログを溜める。
 * Events: メトリクスの閾値超過といったイベントをトリガーにアクションをキックする。
 
 cli
