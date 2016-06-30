@@ -88,4 +88,4 @@ CDN。
 
 ### AWS CloudTrail
 
-APIコールのロギング。
+APIコールのロギング。CloudWatch Logsを通すことで監視も可能になる。
