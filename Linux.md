@@ -32,6 +32,10 @@
 * [[curlとwget|CurlAndWget]]
 * [[tcpdump]]
 
+### time
+
+時間計測。`time command`の形式で使用する。実際の経過時間と、CPU使用時間が取れる。
+
 ### script
 
 ログ取得コマンド。`exit`か`ctrl-d`するまでログをテキストファイルに取り続ける。制御文字まで含んでしまうのが難点。
