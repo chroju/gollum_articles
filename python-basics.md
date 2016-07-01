@@ -1,10 +1,30 @@
 Python基本文法
 ========
 
-型
+feature
+========
+
+install
+========
+
+* だいたいパッケージで入るが、2と3があると思うのでバージョン指定した方がよい。
+
+running
+========
+
+variables
+========
+
+definition
 ----
 
-### 文字列
+special variables
+----
+
+
+string
+----
+
 * word[:2] 最初の2文字
 * word[2:] 最初の2文字を取った残り
 * word[2:4] 最初の4文字から2文字を取った残り
@@ -12,9 +32,60 @@ Python基本文法
 * word[-2] 最後から2文字目
 * word[-2:] 最後の2文字を取った残り
 
-式
+numeric
+----
+
+array
+----
+
+list
+----
+
+grammer
+========
+
+commnt
+----
+
+input/output
+----
+
+### ヒアドキュメント
+
+
+if
+----
+
+### true/false
+
+### post if
+
+### ternary operator
+
+switch
+----
+
+loop
 ----
 
 ### for
+
 * 条件文最後に`:`が必要
 * 2行目以降はインデント
+
+function
+----
+
+```python
+def foo(bar, baz):
+    ...
+```
+
+exception
+----
+
+packages
+========
+
+other
+========
