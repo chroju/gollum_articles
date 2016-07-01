@@ -1,3 +1,10 @@
+手作業系のノウハウ
+---
+
+つらいけどしゃーない。
+
+* [【社内資料公開】運用手順書を作る時のポイントについて書いてみた ｜ Developers.IO](http://dev.classmethod.jp/operation/cm-operation-manual-howto/)
+
 障害対応
 ---
 
