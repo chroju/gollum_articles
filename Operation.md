@@ -5,6 +5,15 @@
 
 * [【社内資料公開】運用手順書を作る時のポイントについて書いてみた ｜ Developers.IO](http://dev.classmethod.jp/operation/cm-operation-manual-howto/)
 
+改善
+----
+
+* [はてなにおけるLinuxネットワークスタックパフォーマンス改善 / Linux network performance improvement at hatena // Speaker Deck](https://speakerdeck.com/yuukit/linux-network-performance-improvement-at-hatena)
+
+こういうのをやるのがインフラでは？保守では？という薄ぼんやりした思い。
+そりゃSLAにないからいいのかもしんないけどさぁ。。。
+はてなはこのあたりがすごく強い印象がある。羨ましい。
+
 障害対応
 ---
 
