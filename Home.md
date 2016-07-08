@@ -9,11 +9,12 @@ Tech
   * [[Development Standard]]
   * [[Programming Paradigm]]
   * [[ITIL]]
-* Infrastructure
+* Fundamental
   * [[Computer]]
   * [[Network]]
   * [[Linux]]
   * [[Security]]
+  * [[RegExp]]
 * XaaS
   * [[AWS]]
   * [[heroku]]
