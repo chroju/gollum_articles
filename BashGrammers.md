@@ -81,6 +81,28 @@ esac
 loop
 ----
 
+### for
+
+```bash
+for i in foo bar
+do
+  echo "${i}"
+done
+```
+
+* インクリメントする整数を使用する場合、様々な記法がある。
+  * ブレース展開を用いる : `for i in {1..10}`
+  * seqコマンドを用いる : `for i in $(seq 1 10)`
+* 配列の要素を1つずつ取り出す場合は`for i in ${array[@]}`。
+
+### while
+
+```bash
+while read line; do
+        echo $line
+done < hoge.conf
+```
+
 function
 ----
 
