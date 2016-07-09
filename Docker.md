@@ -10,6 +10,8 @@ Docker Networking
 * [Dockerコンテナ間のlink，database.ymlの書き方 | SOTA](http://deeeet.com/writing/2014/03/20/docker-link-container/)
   * 基本形。`docker run`の際に`--link image:alias`の形で、
     `image`とlinkし、リンク情報はコンテナ内の環境変数で読み取れるようになる。
+  * リンクしたコンテナには、コンテナ内から`http://alias`の形でアクセスできる（/etc/hostsが書き換えられている）。
+    [Legacy container links](https://docs.docker.com/engine/userguide/networking/default_network/dockerlinks/#/updating-the-etc-hosts-file)
 
 Docker Compose
 ----
