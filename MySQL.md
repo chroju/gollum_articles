@@ -44,6 +44,17 @@ show tables;
 > show slave status\g
 ```
 
+### ユーザー
+[MySQL の権限のコマンドまとめ。 - Qiita](http://qiita.com/PallCreaker/items/0b02c5f42be5d1a14adb)
+
+```
+# 全ユーザーを確認
+> SELECT user,host,password FROM mysql.user;
+# 管理者用ユーザー作成
+# 最後のGRANTオプションを省けば権限管理は除外できる
+> GRANT ALL ON *.* TO adminuser@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;
+```
+
 global variables
 ----
 
