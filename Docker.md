@@ -17,7 +17,24 @@ Docker Compose
 ----
 
 * 例えばWebとDBで2コンテナ、といった複数コンテナから成るサービスを制御する。
-* yamlでcompose用のファイルを書き、`docker compose`コマンドにより複数コンテナを一律に扱う。
+* yamlでcompose用のファイルを書き、`docker-compose`コマンドにより複数コンテナを一律に扱う。
+
+### インストール
+
+* GitHubから最新版をダウンロードしてきて、コマンドに実行権を与えるのみ。
+* CoreOSでもデフォルトでは搭載されていない。
+  * [CoreOSにdocker-composeを導入 - Qiita](http://qiita.com/hiroseabook/items/50bda4b0fd85ab228c6d)
+
+### コマンド
+
+```bash
+# 起動
+$ docker-compose up
+```
+
+### docker-compose.yml
+
+
 
 Docker Swarm
 ----
