@@ -71,7 +71,9 @@ Deprecated。`ss`が代替。
 
 ```bash
 # Listenポートも含めPID表示
-$netstat -ap
+$ netstat -ap
+# Listenポートのみを表示
+$ netstat -l
 ```
 iostat
 
@@ -82,6 +84,17 @@ last
 lsof
 
 指定したプロセスのファイルディスクリプタを一覧する。
+
+```
+# /var/log/messagesを開いているプロセスを確認
+$ lsof /var/log/messages
+# rubyプロセスが使用しているファイルを確認
+$ lsof -c ruby
+# 全ポートの使用状況を確認
+$ lsof -i
+# ポート80を使用しているプロセスを確認
+$ lsof -i:80
+```
 
 ip
 
