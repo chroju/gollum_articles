@@ -1,3 +1,10 @@
+ポリシー
+----
+
+バケット側でもポリシー設定が出来たりして、とにかく面倒な印象。
+
+[S3のアクセスコントロールが多すぎて訳が解らないので整理してみる ｜ Developers.IO](http://dev.classmethod.jp/cloud/aws/s3-acl-wakewakame/)
+
 cli
 ----
 
