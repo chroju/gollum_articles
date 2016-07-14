@@ -1,3 +1,9 @@
+構成図
+----
+
+* [ネットワーク図を書くときに考えること - # cat /var/log/stereocat | tail -n3](http://d.hatena.ne.jp/stereocat/20120503/1336049616)
+* [ネットワーク図を書くときに考えること(2) - # cat /var/log/stereocat | tail -n3](http://d.hatena.ne.jp/stereocat/20120708/1341733222)
+
 ### リンクパススルー
 
 * [WAN越えリンクパススルー - ネットワークエンジニアの実践メモ](http://blog.livedoor.jp/noah2944/archives/51822849.html)
