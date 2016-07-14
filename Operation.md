@@ -4,6 +4,8 @@
 つらいけどしゃーない。
 
 * [【社内資料公開】運用手順書を作る時のポイントについて書いてみた ｜ Developers.IO](http://dev.classmethod.jp/operation/cm-operation-manual-howto/)
+* [20160630 Documentation for Operation // Speaker Deck](https://speakerdeck.com/opelab/20160630-documentation-for-operation)
+* [インフラエンジニアの綺麗で優しい手順書の書き方](http://www.slideshare.net/shoheikoyama77/ss-52793124)
 
 改善
 ----
