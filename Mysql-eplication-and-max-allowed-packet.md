@@ -1,7 +1,7 @@
 MySQL Replication再開時のmax_allowed_packetの調整
 ========
 
-MySQLでレプリケーションがエラーとなり、エラー時点から再開した際、｀mysqld.log`に以下のエラーが出ることがある。
+MySQLでレプリケーションがエラーとなり、エラー時点から再開した際、`mysqld.log`に以下のエラーが出ることがある。
 
 ```
 Packets larger than max_allowed_packet are not allowed.
