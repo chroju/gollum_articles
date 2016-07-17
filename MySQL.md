@@ -1,6 +1,8 @@
 MySQL
 ========
 
+* [[REP再開時のmax_allowed_packetの調整|Mysql_eplication_and_max_allowed_packet]]
+
 設計
 ----
 
