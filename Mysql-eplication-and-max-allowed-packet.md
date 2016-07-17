@@ -19,3 +19,8 @@ $ mysql -hlocalhost -uroot -p
 mysql> reset slave;
 mysql> show slave status\G
 ```
+
+参考
+----
+
+[MySQL に大きなデータを送る際に max_allowed_packet を確認した方がいい | Sun Limited Mt.](http://blog.syuhari.jp/archives/1307)
