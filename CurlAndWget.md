@@ -18,5 +18,14 @@
 
 * `-s` : サイレントモード。
 * `-S` : `-s`と併用するとエラーだけは出力してくれる。
+* `-v` : 詳細表示。
+* `-L, --location` : 3xx Redirectionが返ってきた場合に自動的にリダイレクトを行う。
+* `-D, --dump-header <file>` : fileにレスポンスヘッダーを出力する。標準出力にすることも可。
+* `-H, --header` : リクエストヘッダーを指定。複数ある場合は1つずつ。
 * `--data-urlencode` : クエリをエンコードしてくれる。エンコードしないものは`--data`。
-  [WebAPIリクエスト仕様書としてcurlコマンドのご提案 - Qiita](http://qiita.com/Hiraku/items/dfda2f8a5353b0742271)
+* `-d, --data` : 上述の通りクエリ。`-d @json`とするとファイル名jsonのファイルを読み込む。jsonの場合はこちらの方が楽。
+* `-O` : 出力をローカル保存する。ファイル名はURLから自動指定される。`-o`でファイル名指定での保存ができる。
+
+#### 参考
+
+[WebAPIリクエスト仕様書としてcurlコマンドのご提案 - Qiita](http://qiita.com/Hiraku/items/dfda2f8a5353b0742271)
