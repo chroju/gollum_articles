@@ -30,6 +30,10 @@ Services
 * [[Amazon SQS]]
 * [[AWS Lambda]]
 
+### AWS IAM (Identity and Access Management)
+
+* [AWS IAM ポリシーの参照 - AWS Identity and Access Management](http://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies.html)
+
 ### AWS Trusted Advisor
 
 AWSベストプラクティスの適用状態を自動審査してくれるサービス。
