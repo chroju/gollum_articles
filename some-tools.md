@@ -1,3 +1,10 @@
+jq
+----
+
+標準出力上でjsonをパースするツール、、、とおもいきや普通にプログラミング言語としての機構を持ってるんだとか。
+
+* [jqで簡単JSON加工 ｜ Developers.IO](http://dev.classmethod.jp/tool/jq/)
+
 gibo
 ----
 
