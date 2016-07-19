@@ -35,6 +35,22 @@ numeric
 array
 ----
 
+```bash
+# 宣言
+$ array=(foo bar baz)
+# 要素へのアクセス
+$ array[1]=hoge
+$ echo ${array[@]}
+foo hoge baz
+# 要素数を確認
+$ echo ${#array}
+3
+# 添字指定がなければ[0]へのアクセスになる
+$ echo ${array}
+foo
+```
+
+
 list
 ----
 
@@ -55,6 +71,16 @@ input/output
 
 if
 ----
+
+### \[\[ \]\]（二重ブラケット）
+
+`test`コマンド（`[]`）よりインテリジェントに振る舞う上位互換という考えでよい？ 正規表現が使えたり。
+
+[Linux のヒント: Bash のテスト関数と比較関数](http://www.ibm.com/developerworks/jp/linux/library/l-bash-test.html)
+
+比較の演算子は下記がとても詳しい。
+
+[if 文と test コマンド | UNIX & Linux コマンド・シェルスクリプト リファレンス](http://shellscript.sunone.me/if_and_test.html#%E6%96%87%E5%AD%97%E5%88%971%E3%81%A8%E6%96%87%E5%AD%97%E5%88%972%E3%81%AF%E7%AD%89%E3%81%97%E3%81%84%E3%81%8B:ed775c34e441eb16a91481d087cc1a74)
 
 ### true/false
 
@@ -106,6 +132,13 @@ done < hoge.conf
 function
 ----
 
+* `function name(){}`形式で宣言する（functionは省略可）。
+* 関数は呼び出す前に定義する必要がある。
+* 呼び出すときは関数名を記述するのみで良い。
+* 返り値という概念はない。標準出力がそのまま戻ってくる。`return`で設定できるのは終了コード。`exit`するとスクリプト自体が終了するので注意。
+* ローカル変数は`local var`形式で宣言できる。関数外（グローバルスコープ）と干渉しない。
+* 引数も設定でき、`$1`などで呼び出せる。ただし`$0`はグローバルスコープ。
+
 exception
 ----
 
@@ -114,3 +147,8 @@ packages
 
 other
 ========
+
+算術展開
+----
+
+`$(( x += 1 ))`で変数xがインクリメントされる。
