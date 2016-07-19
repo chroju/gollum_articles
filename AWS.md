@@ -49,6 +49,36 @@ PaaS。アプリを選択するとそれに必要なEC2等を勝手に構築し�
 * Elasticsearchの提供サービス。
 * Kibanaもデフォルトで付いている。
 * 一部サービス（CloudTrail等）はESへストリームを流すオプションを持っており、簡単に可視化ができる。
+* 手元のPCでKibanaを見たいと思った場合、ポリシーをきちんと開けなくてはならないので注意。
+  [【AWS】AWS Elasticsearchのkibanaを使うのに困ったこと - Qiita](http://qiita.com/fkana/items/a0ee1ec0f9a807ce818f)
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::xxxxxxxxxxx:role/role-name"
+      },
+      "Action": "es:*",
+      "Resource": "arn:aws:es:ap-northeast-1:xxxxxxxxxxx:domain/hoge/*"
+    },
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "*"
+      },
+      "Action": "es:*",
+      "Resource": "arn:aws:es:ap-northeast-1:xxxxxxxxxxx:domain/hoge/*",
+      "Condition": {
+        "IpAddress": {
+          "aws:SourceIp": "0.0.0.0"
+        }
+      }
+    }
+  ]
+}
+```
 
 #### 参考
 
