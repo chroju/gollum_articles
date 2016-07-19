@@ -40,6 +40,16 @@ AWSベストプラクティスの適用状態を自動審査してくれるサ�
 
 PaaS。アプリを選択するとそれに必要なEC2等を勝手に構築してくれる。デプロイはzipファイルをアップロードするだけでOK。開発、ステージング、本番といった環境の棲み分けもできる。heroku的だが、構築したリソース分の課金が発生するため注意は必要。
 
+### Amazon Elasticsearch Service
+
+* Elasticsearchの提供サービス。
+* Kibanaもデフォルトで付いている。
+* 一部サービス（CloudTrail等）はESへストリームを流すオプションを持っており、簡単に可視化ができる。
+
+#### 参考
+
+* [【AWS】AWS Elasticsearchのkibanaを使うのに困ったこと - Qiita](http://qiita.com/fkana/items/a0ee1ec0f9a807ce818f)
+
 ### AWS CodeDeploy
 
 S3やGitHub上のアプリケーションコードを決められた箇所へ配置する（デプロイ）作業を制御するサービス。
