@@ -1,84 +1,35 @@
 * [[基礎文法|BashGrammers]]
 * [[コーディングスタイル|BashCodingStyle]]
+
+tips
+----
+
 * [Qiitaに自分でまとめたやつ](http://qiita.com/chroju/items/7af3fd5faa26de4067f0)
 
-配列
-----
+### evalとグロブ展開
+
+アスタリスクによるグロブ展開は、例えば変数に代入するとその段階で評価される。
 
 ```bash
-# 宣言
-$ array=(foo bar baz)
-# 要素へのアクセス
-$ array[1]=hoge
-$ echo ${array[@]}
-foo hoge baz
-# 要素数を確認
-$ echo ${#array}
-3
-# 添字指定がなければ[0]へのアクセスになる
-$ echo ${array}
-foo
+$ ls
+foo.txt bar.txt
+$ TEXTS=(*.txt baz.txt)
+$ echo $TEXTS
+foo.txt bar.txt baz.txt
 ```
 
-コマンド
-----
-
-### \[\[ \]\]（二重ブラケット）
-
-`test`コマンド（`[]`）よりインテリジェントに振る舞う上位互換という考えでよい？ 正規表現が使えたり。
-
-[Linux のヒント: Bash のテスト関数と比較関数](http://www.ibm.com/developerworks/jp/linux/library/l-bash-test.html)
-
-比較の演算子は下記がとても詳しい。
-
-[if 文と test コマンド | UNIX & Linux コマンド・シェルスクリプト リファレンス](http://shellscript.sunone.me/if_and_test.html#%E6%96%87%E5%AD%97%E5%88%971%E3%81%A8%E6%96%87%E5%AD%97%E5%88%972%E3%81%AF%E7%AD%89%E3%81%97%E3%81%84%E3%81%8B:ed775c34e441eb16a91481d087cc1a74)
-
-ループ
-----
-
-### for
-
-`in`を利用した範囲指定のループが可能。
+評価させたくない場合はクォートが必要になる。クォートした変数をあえて評価させる場合は`eval`を使う。
 
 ```bash
-for i in 0 1 2 3
-do
-  echo $i
-done
-
-for i in ${array[@]}
-do
-  echo $i
-done
+$ TEXTS=('*.txt' baz.txt)
+$ echo $TEXTS
+*.txt baz.txt
+$ eval echo $TEXTS
+foo.txt bar.txt baz.txt
 ```
-
-### while
-
-`read`と組み合わせて標準入力から1行ずつ読み込んで処理する。
-
-```bash
-while read i; do
-  echo $i
-done < input.txt
-```
-
-算術展開
-----
-
-`$(( x += 1 ))`で変数xがインクリメントされる。
-
 
 ShellScript
 ----
-
-### 関数
-
-* `function name(){}`形式で宣言する（functionは省略可）。
-* 関数は呼び出す前に定義する必要がある。
-* 呼び出すときは関数名を記述するのみで良い。
-* 返り値という概念はない。標準出力がそのまま戻ってくる。`return`で設定できるのは終了コード。`exit`するとスクリプト自体が終了するので注意。
-* ローカル変数は`local var`形式で宣言できる。関数外（グローバルスコープ）と干渉しない。
-* 引数も設定でき、`$1`などで呼び出せる。ただし`$0`はグローバルスコープ。
 
 ### 文字装飾
 
