@@ -32,6 +32,21 @@
 * [[curlとwget|CurlAndWget]]
 * [[tcpdump]]
 
+### sort
+
+```bash
+# 整数順
+$ sort -n
+# 実数順
+$ sort -g
+# 人間が読める形式で比較（2Kと1Gとか）
+$ sort -h
+# 逆順
+$ sort -r
+# 区切り文字を指定（-t）、カラムを指定（-k）
+$ sort -k 3,3 -t ':'
+```
+
 ### time
 
 時間計測。`time command`の形式で使用する。実際の経過時間と、CPU使用時間が取れる。
