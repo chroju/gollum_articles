@@ -17,6 +17,10 @@ References
 * [コンプライアンスリソース –アマゾン ウェブ サービス (AWS)](http://aws.amazon.com/jp/compliance/resources/)
 * [AWS_Security_Best_Practices.pdf](http://media.amazonwebservices.com/jp/wp/AWS_Security_Best_Practices.pdf)
 
+#### 概要をまとめたもの
+
+* [[ITIL Asset and Configuration Management in the Cloud]]
+
 Services
 ----
 
