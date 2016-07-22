@@ -29,6 +29,7 @@ Tech
   * [[fabric]]
   * [[vagrant]]
   * [[Terraform]]
+  * [[Packer]]
 * Middleware
   * [[nginx]]
   * [[Elasticsearch]]
