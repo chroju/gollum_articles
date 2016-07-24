@@ -20,6 +20,7 @@ References
 #### 概要をまとめたもの
 
 * [[ITIL Asset and Configuration Management in the Cloud]]
+* [[Well-Architected Framewrok]]
 
 Services
 ----
