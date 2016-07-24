@@ -26,6 +26,11 @@ SSL/TLS
 * Chromeは41より、CTのないEV証明書は緑色表示をしないよう仕様変更している。
 * 参考：[Certificate Transparencyについて勉強会で発表したので、その補足や落ち穂拾い - ろば電子が詰まっている](http://d.hatena.ne.jp/ozuma/20150516/1431769141)
 
+### 証明書ファイルや鍵ファイルの拡張子
+
+* 参考：[RSA鍵、証明書のファイルフォーマットについて - Qiita](http://qiita.com/kunichiko/items/12cbccaadcbf41c72735)
+* とりあえずcrtとcerは同じものらしい。
+
 ### 参考
 
 * [サーバー証明書のつくりかたと、その原理 - kirinwikiblog](http://kirinwiki.hatenablog.com/entry/2014/07/03/220315)
