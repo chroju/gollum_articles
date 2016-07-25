@@ -10,6 +10,13 @@ Systemd
 * `journalctl`: Systemdのログを確認する。
   [systemd のログを確認する journalctl – 愛しく切ない1bed](http://1bed.saloon.jp/?p=684)
 
+```bash
+# ログを省略せず表示
+$ journalctl -a
+# 特定Unit（サービス）のログを表示
+$ journalctl -u servicename
+```
+
 
 init
 ----
