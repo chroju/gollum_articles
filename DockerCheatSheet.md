@@ -26,7 +26,7 @@ $ docker images -f dangling=true
 
 build
 ```bash
-$ docker build -t repository_name/image_name:tag_name Dockerfile
+$ docker build -p 8080:80 --name hoge -t repository_name/image_name:tag_name Dockerfile
 ```
 
 run
