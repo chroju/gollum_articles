@@ -38,3 +38,7 @@ API
 ========
 
 * 為替 [[小ネタ]為替レートを簡単に取得する - Qiita](http://qiita.com/chromabox/items/a1323225bae146c80bec)
+* Redmine
+  * [Rest api - Redmine](http://www.redmine.org/projects/redmine/wiki/Rest_api)
+  * [RedmineのREST APIは素晴らしい～ビッグデータの手法をRedmineにも活用する: プログラマの思索](http://forza.cocolog-nifty.com/blog/2013/06/redminerest-api.html)
+  * [Redmine REST API - r-labs](http://www.r-labs.org/projects/r-labs/wiki/Redmine_REST_API)
