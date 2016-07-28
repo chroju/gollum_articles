@@ -44,6 +44,8 @@ show tables;
 > show global status LIKE 'thread_connected';
 # レプリケーションステータスの確認
 > show slave status\g
+# レプリケーションステータスの変更
+> change master to MASTER_LOG_FILE='mysqld-bin.000001';
 ```
 
 ### ユーザー
@@ -95,6 +97,19 @@ MySQLの醍醐味？ 基本的なフローは以下。
 
 * [MySQLリレーログの仕様を学ぶ | OpenGroove](http://open-groove.net/mysql/binlog-relay-log/)
 * [MySQLのレプリケーションでLast_SQL_Errno: 1594が出た場合の対処方法 | Mindcircus.jp](http://www.mindcircus.jp/archives/5758)
+
+mysqldump
+----
+
+全データをMySQLコマンドの形でダンプしたもの。最もシンプルなバックアップ手法。`mysql`コマンドを使って読み込むことでリストアが可能。
+
+```bash
+$ mysql -hlocalhsot -uroot -p dbname < mysqldump
+# 文字化けしたり、認識できない文字があるとエラーになる際は、文字コード指定を付与する。
+$ mysql -hlocalhsot -uroot -p --default-character-set=utf8 dbname < mysqldump
+```
+
+* [MySQL :: MySQL 5.6 リファレンスマニュアル :: 2.11.5 MySQL データベースのほかのマシンへのコピー](https://dev.mysql.com/doc/refman/5.6/ja/copying-databases.html)
 
 Trouble
 ----
