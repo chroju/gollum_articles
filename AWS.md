@@ -136,6 +136,8 @@ CDN。
 
 構成変更のロギング。有効化することで使用可能になる。無償だが保存先S3バケット料がかかる。Config Rulesで構成変更の自動チェックができる。
 
+* [AWS Config Rules用のGitHubリポジトリが公開されました！ ｜ Developers.IO](http://dev.classmethod.jp/cloud/aws/aws-config-rules-new-repository/)
+
 ### AWS CloudTrail
 
 APIコールのロギング。CloudWatch Logsを通すことで監視も可能になる。
