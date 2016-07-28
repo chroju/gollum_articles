@@ -34,6 +34,7 @@ Services
 * [[Amazon SNS]]
 * [[Amazon SQS]]
 * [[AWS Lambda]]
+* [[AWS KMS]]
 
 ### AWS IAM (Identity and Access Management)
 
