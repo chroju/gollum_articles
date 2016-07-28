@@ -1,3 +1,14 @@
+Batteries included
+========
+
+urllib2
+----
+
+* Webアクセスのためのモジュール。
+* ヘッダを設定したり一連のことは可能だが、書き方がPython的ではない等の理由があってrequestsが推奨される。
+* [urllib2 を使ってインターネット上のリソースを取得するには — Python 2.7.x ドキュメント](http://docs.python.jp/2/howto/urllib2.html)
+
+
 requests
 ----
 
