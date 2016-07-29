@@ -29,12 +29,39 @@ Core Type（データの基本型）は以下5通り。
 * Boolean
 * Binary
 
+構成
+----
+
+クラスタリング構成が前提になっている。
+
+* `Cluster` : 文字通り負荷分散、耐障害冗長性のためのサーバーグループ。
+* `Node` : 各サーバー。
+* `Shard` : indexの分解単位。各Shardは別のNodeで動作可能なため、計算能力を分散できる。デフォルトは5 Shards。
+* `Replica` : Primary Shardの完全コピー。耐障害。デフォルトで1に設定されているため、1 Nodeしかない構成だとCluster Health: yellowになる。
+  [Elasticsearchのshardとreplica - なんかかきたい](http://t-cyrill.hatenablog.jp/entry/2015/02/18/190310)
+
 使用
 ----
 
-すべてRESTfulに操作する。
+すべてRESTfulに操作する。最も基本的な構造として以下のURL。
+
+```
+GET /{index}/{type}
+```
 
 * [[Elasticsearch Cheat Sheet]]
+* [第７回 Elasticsearch 入門 API の使い方をハンズオンで理解する 〜前編〜 ｜ Developers.IO](http://dev.classmethod.jp/server-side/elasticsearch-getting-started-07/)
+* [第８回 Elasticsearch 入門 API の使い方をハンズオンで理解する 〜後編〜 ｜ Developers.IO](http://dev.classmethod.jp/server-side/elasticsearch-getting-started-08/)
+
+```
+GET /_cat/health?v # Clusterの状態確認
+GET /_cat/indices?v # Index一覧
+GET /_cat/indices?v&index=foo # 特定indexの情報表示
+GET /_cat/shards?v # Shards状態確認
+
+GET /foo/ # foo indexの情報表示
+GET /foo/_mapping # fooのmapping情報を表示
+```
 
 設計
 ----
