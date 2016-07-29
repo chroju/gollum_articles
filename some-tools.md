@@ -33,6 +33,12 @@ Porg(Paco)
 
 * [pacoからporgへ - Qiita](http://qiita.com/pasela/items/eea4a9cbbd54ad118d09)
 
+jpholidayp
+----
+
+実行日が日本の休日（土日祝）であるかを判定し、終了コードで休日であれば0、それ以外は1を返すシンプルな仕組み。
+
+* [平日だけcron実行するのにproxy越しでjpholidayp使ってみた - Qiita](http://qiita.com/noexpect/items/2c144e452bb9f2aade6a)
 
 API
 ========
