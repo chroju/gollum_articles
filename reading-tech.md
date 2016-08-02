@@ -10,6 +10,7 @@
 * [[初めてのAnsible|AnsibleRuns&Up]]
 * [[ヘルシープログラマ|TheHealthyProgrammer]]
 * [[暗号技術入門|EntryForEncriptionTechnology]]
+* [[SOFT SKILLS]] →ブログ参照：[『SOFT SKILLS』と「やっていく気持ち」 · the world as code](http://chroju.github.io/blog/2016/08/01/soft_skills_and_our_productivity/)
 
 技術書以外
 ----
