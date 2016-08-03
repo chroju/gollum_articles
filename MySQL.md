@@ -59,6 +59,11 @@ show tables;
 > GRANT ALL ON *.* TO adminuser@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;
 ```
 
+### コメント
+
+* `# `と`-- `と`/* */`がある。
+* `/*!50001 */`形式で記載すると、MySQL5.00.01以降でのみ実行されるコマンドになる。mysqldumpで多用されている。
+
 global variables
 ----
 
