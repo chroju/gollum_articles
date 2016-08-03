@@ -16,6 +16,9 @@ References
 * [セキュリティリソース - AWS クラウドセキュリティ | AWS](http://aws.amazon.com/jp/security/security-resources/)
 * [コンプライアンスリソース –アマゾン ウェブ サービス (AWS)](http://aws.amazon.com/jp/compliance/resources/)
 * [AWS_Security_Best_Practices.pdf](http://media.amazonwebservices.com/jp/wp/AWS_Security_Best_Practices.pdf)
+* [クラウドコンピューティングのためのアーキテクチャーベストプラクティス](http://d36cz9buwru1tt.cloudfront.net/jp/wp/AWS_WP_Cloud_BestPractices_JP_v20110531-3.pdf)
+  * クラウドにおいてインフラをどう考えればいいか？に答えている。概念的にこれを頭に叩き込みたい。とてもいい。
+  * システムの弾力性、マイクロアーキテクチャー、プログラマブルなインフラ、Design for failure、自動化あたりの話。
 
 #### 概要をまとめたもの
 
