@@ -30,8 +30,12 @@ foo.txt foo.txt.bak
 
 基本的なイディオム
 ```bash
-# 置換
+# 全置換
 $ sed -e 's/foo/bar/g'
+# 3行目に置換をかける
+$ sed -e 's/foo/bar/3'
+# 5～10行目に置換をかける
+$ sed -e '5,10s/foo/bar/g'
 # 複数パターンの置換
 $ sed -e 's/foo/bar/;s/baz/quz/'
 # 1文字ずつ置換
@@ -59,6 +63,8 @@ $ sed -e 's/<[^>]*>//g'
 空行削除
 ```bash
 $ sed -e '/^ *$/d'
+# 正規表現の該当行削除なので、例えば以下だとhogeを含む行がすべて削除される
+$ sed -e '/hoge/d'
 ```
 後方参照
 ```bash
@@ -82,7 +88,10 @@ awk
 ----
 
 ```bash
+# 2番目のカラムのみ表示
 $ awk '{print $2}'
+# $0は引数全体
+$ awk '{print $0}'
 ```
 
 出力行の限定。`NR`がawkの組み込み変数であり、行番号を表す。
@@ -103,6 +112,10 @@ $ awk '{a += $1; b += $2} END {print a, b}'
 `$1`がシェルに引数として判定されるから。`su -c`でダブルクォート内に`awk`書いて見事にハマった。
 
 [awk のハマるポイントまとめ - Qiita](http://qiita.com/aibou/items/159a18ca70ac87b40bad)
+
+### 参照
+
+* [AWK Users JP :: awk 基礎文法最速マスター](http://gauc.no-ip.org/awk-users-jp/blis.cgi/awk_fastest)
 
 grep
 ----
