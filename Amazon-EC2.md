@@ -1,3 +1,17 @@
+EC2のサービス範囲
+----
+
+マネジメントコンソール上野分類では、以下が含まれる。
+
+* Elastic Block Store (EBS)
+* Elastic Load Balancing (ELB)
+* Auto Scaling
+
+### ELB
+
+* 仮想ロードバランサー。
+* 自動スケールして負荷上昇に対応するが、急速なスパイクが予想される場合にはサポートからPre-Warming（暖気申請）を行える。
+
 仮想化方式
 ----
 
