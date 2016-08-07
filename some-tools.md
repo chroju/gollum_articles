@@ -40,6 +40,11 @@ jpholidayp
 
 * [平日だけcron実行するのにproxy越しでjpholidayp使ってみた - Qiita](http://qiita.com/noexpect/items/2c144e452bb9f2aade6a)
 
+[license](http://rcmdnk.github.io/blog/2016/07/26/computer-github/)
+----
+
+ライセンスファイルの自動生成ツール。
+
 API
 ========
 
