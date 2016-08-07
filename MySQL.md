@@ -3,12 +3,29 @@ MySQL
 
 * [[REP再開時のmax_allowed_packetの調整|Mysql_eplication_and_max_allowed_packet]]
 
-設計
+特徴
+----
+
+* ストレージエンジンがプラグイン化しており、選択肢がある（ほぼInnoDBが使われている）。
+* PostgreSQLのようなバキューム処理は不要。
+* 
+
+設定の勘所
 ----
 
 * Replcationの実装
 * キャッシュクエリのヒット率確保
 * コネクション数の確認
+
+バージョン毎の変更点
+----
+
+* [漢(オトコ)のコンピュータ道: MySQL 5.5新機能徹底解説](http://nippondanji.blogspot.jp/2010/12/mysql-55.html)
+  * 準同期レプリケーションが出来るようになったあたり。
+  * utf8mb4（4バイト対応UTF8）もこのバージョンから。
+  * その他細々とした変更点が多い。
+* [MySQL 5.7の罠があなたを狙っている](http://www.slideshare.net/yoku0825/mysql-57-51945745)
+  * ぶっちゃけよくわからないんですが罠が多いらしいです。
 
 コマンド操作
 ----
@@ -109,7 +126,7 @@ mysqldump
 全データをMySQLコマンドの形でダンプしたもの。最もシンプルなバックアップ手法。`mysql`コマンドを使って読み込むことでリストアが可能。
 
 * link : [[mysqldump]]
-
+* [mysql の定期的なバックアップ - Qiita](http://qiita.com/crimson_21/items/6171a95f8ddb2861e2e6?utm_content=buffer59d96&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)（シェルスクリプトでの実装）
 
 Trouble
 ----
