@@ -39,6 +39,20 @@ $ du -S
 $ du -d N
 $ du --max-depth=N
 ```
+find
+
+```bash
+# atime（最終アクセス日時）やctime（変更日時）での絞込み
+# 3日以上前の最終アクセスがあるファイル
+$ find -atime +3
+# 7日間以内に変更されているファイル
+$ find -ctime -7
+# ファイルタイプ（dがディレクトリ、fが通常ファイル、lがシンボリックリンク、など）
+$ find -type c
+# 検索結果を引数としてコマンドを実行する
+$ find -exec rm {} \;
+```
+
 free
 
 fdisk
