@@ -29,3 +29,4 @@ Rebuild.fm
 
 * [[Aftershow 133:Knowledge Sharing|RebuildAfterShow133]]
 * [[139:Productivity Extremist|Rebuild139]]
+* [[152:The True Jenkins Master|Rebuild152]]
