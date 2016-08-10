@@ -11,6 +11,7 @@ EC2のサービス範囲
 
 * 仮想ロードバランサー。
 * 自動スケールして負荷上昇に対応するが、急速なスパイクが予想される場合にはサポートからPre-Warming（暖気申請）を行える。
+  * [Elastic Load Balancing の暖気申請について ｜ Developers.IO](http://dev.classmethod.jp/cloud/aws/elastic-load-balancing-pre-warming/)
 
 仮想化方式
 ----
