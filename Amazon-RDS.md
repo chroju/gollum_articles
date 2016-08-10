@@ -22,3 +22,13 @@
   * プライマリ上でのコンピュートユニット障害
   * プライマリへのストレージ不良
 * データのコピーは物理レプリケーションで行われる。
+
+監視
+----
+
+### 拡張モニタリング
+
+* [[新機能]Amazon RDSでOSの詳細情報を取得できるようになりました！ ｜ Developers.IO](http://dev.classmethod.jp/cloud/aws/rds-enhanced-monitoring/)
+* 2015年12月頃に追加された、CloudWatchでより詳細な情報を取得できる機能。
+* ローンチ時点の対応はMySQL5.6、Maria、Auroraのみ。
+* 取得できるのはCPU使用率、ディスクI/O、プロセスリストといったOSレイヤーのメトリクスが主。
