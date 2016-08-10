@@ -32,6 +32,7 @@ Services
 * [[AWS Billing]]
 * [[Amazon EC2]]
 * [[Amazon ECS]]
+* [[Amazon RDS]]
 * [[Amazon S3]]
 * [[AWS CloudWatch]]
 * [[Amazon SNS]]
