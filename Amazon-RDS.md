@@ -61,3 +61,9 @@ APIの`describe-events`で能動的に取得も可能。最大で過去14日分�
 ### ログ
 
 各DBツールごとに、定められたログをモニタリングできる。MySQLの場合はエラーログ、general log、スロークエリログ。APIから`describe-db-log-files`でアクセスできる。
+
+### メンテナンスイベント
+
+AWSによるRDSインスタンスのメンテナンスは`describe-pending-maintenance-actions`で確認できる。
+
+* [AWS Partner SA ブログ: [OpsJAWS] RDSイベントの監視](http://aws.typepad.com/aws_partner_sa/2015/05/aws-ops-monitoring-rdsevents-1.html)
