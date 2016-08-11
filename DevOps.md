@@ -1,6 +1,8 @@
 ### 前提
 
 * [DevOps とは何か 何であるべきか](http://www.slideshare.net/mizzy/dev-ops-qpstudy)
+  * DevとOpsが協力していくカルチャーのことであり、その文化に端を発したツールやプロセスなのだということ。
+  * あくまでカルチャーが本質で、ツールはその手段に過ぎない。
 
 ### 強いチームのつくりかた＠Developers Summit 2016
 
