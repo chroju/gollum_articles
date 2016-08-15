@@ -37,6 +37,7 @@ Tech
   * [[snmp]]
   * [[dns]]
 * DB
+  * [[DB全般|Database]]
   * [[MySQL]]
   * [[Redis]]
   * [[MongoDB]]
