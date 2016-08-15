@@ -5,6 +5,7 @@
 
 * あらかじめ設定しておくと、その時間帯でパッチ適用を自動実行する。
 * Multi-AZ構成の場合はローリングアップデートになり、サービス停止は短くなる。
+* 参考：[Amazon RDS のメンテナンスにどう立ち向かうべきか](https://blog.manabusakai.com/2016/01/rds-maintenance/)
 
 ### EndPointでの接続
 
@@ -34,6 +35,7 @@ RDS上での種々のイベント発生はSNS経由で通知される。通知�
 * マスターパスワードのリセット
 * フェイルオーバーの開始／完了
 * すべてのイベントは→ [Amazon RDS イベント通知の使用 - Amazon Relational Database Service](http://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/USER_Events.html)
+* 監視についてのアドバイス→ [AWS Partner SA ブログ: [OpsJAWS] RDSイベントの監視](http://aws.typepad.com/aws_partner_sa/2015/05/aws-ops-monitoring-rdsevents-1.html)
 
 APIの`describe-events`で能動的に取得も可能。最大で過去14日分。
 
@@ -50,6 +52,8 @@ APIの`describe-events`で能動的に取得も可能。最大で過去14日分�
   * ディスクI/O回数、時間、バイト数
   * バイナリログの容量
   * リードレプリカとのラグ
+
+全容：[DB インスタンスのメトリックスの表示 - Amazon Relational Database Service](http://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/USER_Monitoring.html)
 
 ### 拡張モニタリング
 
