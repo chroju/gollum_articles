@@ -1,3 +1,9 @@
+参照
+----
+
+* [RDS(mysql) general_log をLambdaを用いてS3に保存する方法 - Qiita](http://qiita.com/rev4t/items/cc539bb6083a7d9bda8e)
+* [RDS for MySQLのスロークエリーログをAWS LambdaでElasticsearchに取り込む ｜ Developers.IO](http://dev.classmethod.jp/cloud/aws/rds-mysql-slowquerylog-to-es/)
+
 特徴
 ----
 
