@@ -17,6 +17,8 @@ sar
 ```bash
 # メモリの使用状況確認
 $ sar -r
+# インターフェースの流量を1秒おきに20回確認（DEVはnetwork deviceの意）
+$ sar -n DEV 1 20
 ```
 
 df
