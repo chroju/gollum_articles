@@ -20,6 +20,7 @@
 Software Design
 ----
 
+* [[Software Design 2015年2月号『なぜ「運用でカバー」がダメなのか』|Sd201502]]
 * [[Software Design 2016年3月号『チーム開発をまわす現場のアイデア』|Sd201603]]
 * [[Software Design 2016年4月号『オブジェクトストレージの教科書』|Sd201604]]
 * [[Software Design 2016年5月号『Vim実戦投入』|Sd201605]]
