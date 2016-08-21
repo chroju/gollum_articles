@@ -75,6 +75,7 @@ $ sort -k 3,3 -t ':'
 * [[LVM概要|LVM]]
 * [[LVMの拡張・縮小|LVM-extend-shrink]]
 * [[NFS]]
+* [[Partition]]
 
 ## Network
 
