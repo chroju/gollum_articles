@@ -17,8 +17,20 @@ sar
 ```bash
 # メモリの使用状況確認
 $ sar -r
+# ロードアベレージ
+$ sar -q
+# swap
+$ sar -W
+# ディスクI/O
+$ sar -b
 # インターフェースの流量を1秒おきに20回確認（DEVはnetwork deviceの意）
 $ sar -n DEV 1 20
+```
+
+過去のデータは`/var/log/sa`配下に日付名で入っており、ここから読み込める。
+
+```bash
+$ sar -f /var/log/sa/sa15
 ```
 
 df
