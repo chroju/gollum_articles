@@ -1,7 +1,7 @@
 profile
 ----
 
-実行アカウントをプロファイルで管理している。現在のプロファイルを確認するには以下。
+実行アカウントをプロファイルで管理している。現在のプロファイルを確認するには以下。他のプロファイルの権限でコマンド実行する際は、`--profile`オプションを使用する。使用していない場合は`default`が使われる。
 
 ```bash
 $ aws configure list
@@ -12,6 +12,11 @@ access_key     ****************RE2A              env
 secret_key     ****************9DO2              env
     region           ap-northeast-1              env    AWS_DEFAULT_REGION
 ```
+
+query
+----
+
+[AWS CLI の query による絞り込み - Qiita](http://qiita.com/draco/items/fa09ae0c2f51de9de449)
 
 output
 ----
