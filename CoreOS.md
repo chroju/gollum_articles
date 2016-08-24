@@ -33,3 +33,5 @@ fleet
 ----
 
 * [CoreOSを使ってDockerコンテナを動かす——15分でできるCoreOSクラスタの作り方 - さくらのナレッジ](http://knowledge.sakura.ad.jp/tech/3390/)
+* [Hardening a CoreOS Machine](https://coreos.com/os/docs/latest/coreos-hardening-guide.html)
+* [Customizing the SSH Daemon](https://coreos.com/os/docs/latest/customizing-sshd.html)
