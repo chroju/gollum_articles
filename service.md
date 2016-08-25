@@ -36,6 +36,10 @@ SystemV系等のプログラム制御。
 * `service`コマンドによる制御と同様に`start`や`stop`が行えるが、スクリプトを直接実行するのではなく、`service`を通すのが望ましい。
   参考：[デーモンの起動・終了にはserviceコマンドを利用しよう - インフラエンジニアway - Powered by HEARTBEATS](http://heartbeats.jp/hbblog/2013/06/service-start-stop.html)
 
+### コマンド
+
+* サービスの起動、終了は`service hoge start/stop/restart`等で実施する。
+* 有効化、無効化は`chkconfig --level 235 hoge on`の形式で行う。確認する際は`--list`。
 
 参考
 ----
