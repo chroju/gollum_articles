@@ -6,5 +6,6 @@ $ find *.txt | xargs -n 2 rm
 # コマンドの実行前に確認する
 $ find *.txt | xargs -p rm
 # 標準入力の値を任意の位置で引数とする
-$ find *.txt | xargs mv {} /tmp/
+# -iでも同様のことが可能だが、POSIXから外されたため非推奨
+$ find *.txt | xargs -I{} mv {} /tmp/
 ```
