@@ -45,6 +45,14 @@ jpholidayp
 
 ライセンスファイルの自動生成ツール。
 
+reveal-ck
+----
+
+Markdownからスライド資料を生成するreveal.jsを更に簡単に扱えるようにしたもの。
+
+
+[reveal.js + markdownでスライドを作る時は reveal-ck が便利だった - くりにっき](http://sue445.hatenablog.com/entry/2015/10/03/201241)
+
 API
 ========
 
