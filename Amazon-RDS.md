@@ -64,7 +64,7 @@ APIの`describe-events`で能動的に取得も可能。最大で過去14日分�
 ### 拡張モニタリング
 
 * [[新機能]Amazon RDSでOSの詳細情報を取得できるようになりました！ ｜ Developers.IO](http://dev.classmethod.jp/cloud/aws/rds-enhanced-monitoring/)
-* 2015年12月頃に追加された、CloudWatchでより詳細な情報を取得できる機能。
+* 2015年12月頃に追加された、CloudWatch Logsにより詳細な情報を出力する機能。
 * ローンチ時点の対応はMySQL5.6、Maria、Auroraのみ。
 * 取得できるのはCPU使用率、ディスクI/O、プロセスリストといったOSレイヤーのメトリクス。RDSではOSレイヤーのメトリクスをユーザー側で取得できないため提供しているものと思われる。
 
@@ -74,6 +74,6 @@ APIの`describe-events`で能動的に取得も可能。最大で過去14日分�
 
 ### メンテナンスイベント
 
-AWSによるRDSインスタンスのメンテナンスは`describe-pending-maintenance-actions`で確認できる。
-
-* [AWS Partner SA ブログ: [OpsJAWS] RDSイベントの監視](http://aws.typepad.com/aws_partner_sa/2015/05/aws-ops-monitoring-rdsevents-1.html)
+* AWSによるRDSインスタンスのメンテナンスは`describe-pending-maintenance-actions`で確認できる。
+  * [AWS Partner SA ブログ: [OpsJAWS] RDSイベントの監視](http://aws.typepad.com/aws_partner_sa/2015/05/aws-ops-monitoring-rdsevents-1.html)
+* `Required`と`Available`の2種類があり、前者は事前実施をしなければメンテナンスウインドウの時間帯に強制実行される。後者は見送り（無期限延期）が可能。
