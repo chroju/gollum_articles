@@ -27,9 +27,11 @@ Tech
   * [[Ansible]]
   * [[Serverspec]]
   * [[fabric]]
-  * [[vagrant]]
+* HashiCorp
+  * [[Vagrant]]
   * [[Terraform]]
   * [[Packer]]
+  * [[Vault]]
 * Middleware
   * [[nginx]]
   * [[Elasticsearch]]
