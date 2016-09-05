@@ -2,7 +2,7 @@
 ----
 
 * バケット側でもポリシー設定が出来たりして、とにかく面倒な印象。バケットポリシーが優先されるので、IAMはゆるめ（S3全体など）に許可をしておいて、バケットポリシーで絞っていく運用がベターか。
-* バケットポリシーの`deny`の優先順位が強い。市販のファイアウォールで実施するポリシーの順位付けは出来ず、デフォルトの優先順位が適用される。いわゆる「All Deny, Some Allow」のような形で設定すると、All Denyが優先されてすべてのアクセスができなくなる。
+* バケットポリシーの`deny`の優先順位が強い。市販のファイアウォールで実施するポリシーの順位付けは出来ず、デフォルトの優先順位が適用される。いわゆる「All Deny, Some Allow」のような形で設定すると、All Denyが優先されてすべてのアクセスができなくなる。→ [コラム - Amazon Web Servicesを追いかける | 第3回　Amazon S3 で構築した webサイトの機能を強化しよう｜CTC教育サービス 研修/トレーニング](https://www.school.ctc-g.co.jp/columns/strawbag/strawbag03.html)
 
 [S3のアクセスコントロールが多すぎて訳が解らないので整理してみる ｜ Developers.IO](http://dev.classmethod.jp/cloud/aws/s3-acl-wakewakame/)
 
