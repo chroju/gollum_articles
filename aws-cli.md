@@ -16,7 +16,17 @@ secret_key     ****************9DO2              env
 query
 ----
 
-[AWS CLI の query による絞り込み - Qiita](http://qiita.com/draco/items/fa09ae0c2f51de9de449)
+* 表示項目の絞り込みに使用する。
+* [AWS CLI の query による絞り込み - Qiita](http://qiita.com/draco/items/fa09ae0c2f51de9de449)
+* [JMESPath](http://jmespath.org/)というjsonをパースするための書式で指定する。`jq`相当のことは賄えるはず。
+
+filters
+----
+
+* 表示 **リソース** の絞り込み＝フィルタリングに使用する。
+* JMESPathではなく、`'Name=hoge,Values=fuga`の形式で特定の値が何であるか？という形でフィルタ条件を指定する。
+* AND検索は先の文を複数並べていく。OR検索はValuesに複数の値をカンマ区切りで並べる。
+* コマンドによっては出力を絞るオプションが用意されている場合もあるため、`filters`を使用しなくて良いこともある。
 
 output
 ----
