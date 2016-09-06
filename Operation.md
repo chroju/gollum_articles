@@ -1,3 +1,8 @@
+運用ってなんだ
+---
+
+[2014-07-26 jawsug-chiba ドキュメントを書こう! 運用自動化時代のドキュメンテーション](http://www.slideshare.net/opelab/20140726-jawsugchiba)
+
 手作業系のノウハウ
 ---
 
