@@ -60,6 +60,8 @@ if
 
 ### post if
 
+存在しない。下記の三項演算子が後置if的な形になる。
+
 ### ternary operator
 
 以下2つは等価。
