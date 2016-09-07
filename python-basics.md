@@ -62,6 +62,18 @@ if
 
 ### ternary operator
 
+以下2つは等価。
+
+```py
+if n == 10:
+    x = "OK"
+else :
+    x = "NG"
+```
+```py
+x = "OK" if n == 10 else "NG"
+```
+
 switch
 ----
 
