@@ -16,6 +16,7 @@
 ----
 
 * [[ちょっとした勉強のコツ|ALittleTipsForStudy]]
+* [[エッセンシャル思考|Essentialism]]
 
 Software Design
 ----
