@@ -6,6 +6,10 @@
 
 [S3のアクセスコントロールが多すぎて訳が解らないので整理してみる ｜ Developers.IO](http://dev.classmethod.jp/cloud/aws/s3-acl-wakewakame/)
 
+### ポリシー設定時のARNの書き方
+
+`arn:aws:s3:::bucket`の形を取るが、この書き方ではバケットそのものに対する権限になる。バケット内のファイルに対するアクセスを許可、拒否する場合は、`arn:aws:s3:::bucket/*`と、`/`でさらに配下を指定する必要がある。
+
 cli
 ----
 
