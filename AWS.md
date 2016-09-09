@@ -61,6 +61,7 @@ PaaS。アプリを選択するとそれに必要なEC2等を勝手に構築し�
 * 一部サービス（CloudTrail等）はESへストリームを流すオプションを持っており、簡単に可視化ができる。
 * 手元のPCでKibanaを見たいと思った場合、ポリシーをきちんと開けなくてはならないので注意。
   [【AWS】AWS Elasticsearchのkibanaを使うのに困ったこと - Qiita](http://qiita.com/fkana/items/a0ee1ec0f9a807ce818f)
+* IAM Roleによる認証でREST APIを制限できるが、その際はリクエストに認証情報を載せる必要がある。 [Amazon Elasticsearch ServiceのIAM Roleによるアクセス制御 ｜ Developers.IO](http://dev.classmethod.jp/cloud/aws/amazon-es-iam-based-access-control/)
 * CloudWatch Logs等、一部のサービスで「Stream to Elasticsearch Service」という一撃でESに流し込める機能がある。但しmappingの設定等はできないので注意→ [【運用】CloudTrailで取得した監査ログをElasticSearch Serviceで活用する【簡単設定】 ｜ Developers.IO](http://dev.classmethod.jp/cloud/aws/cloudtrail-to-elasticsearch-service/)
 
 ```json
@@ -91,10 +92,6 @@ PaaS。アプリを選択するとそれに必要なEC2等を勝手に構築し�
   ]
 }
 ```
-
-#### 参考
-
-* [【AWS】AWS Elasticsearchのkibanaを使うのに困ったこと - Qiita](http://qiita.com/fkana/items/a0ee1ec0f9a807ce818f)
 
 ### AWS CodeDeploy
 
