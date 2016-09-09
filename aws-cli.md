@@ -33,6 +33,13 @@ output
 
 基本はjson。`--output`オプションで`text`と`table`が選べる。
 
+tips
+----
+
+### References
+
+AWS CLI Documentsにはオプションの記載がない場合がある。APIドキュメントを合わせて参照したり、AWS-Shellのバルーンヘルプを確認することで情報が補完できる。
+
 参考
 ----
 
