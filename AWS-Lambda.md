@@ -36,7 +36,3 @@ tips
 実行環境が複数回使い回されることがあるため、`handler`メソッド外で時刻を取得して変数に代入した場合、次回実行時も時刻が変わらないことがある。時刻の取得は`handler`の中で行うのがベター。
 
 * [AWS Lambda上でサーバ時刻がよくわからないことになって困った話 - Qiita](http://qiita.com/yutaro1985/items/a24b572624281ebaa0dd)
-
-### References
-
-AWS CLI Documentsにはオプションの記載がない場合がある。APIドキュメントを合わせて参照したり、AWS-Shellのバルーンヘルプを確認することで情報が補完できる。
