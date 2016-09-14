@@ -125,6 +125,8 @@ lsof
 $ lsof /var/log/messages
 # rubyプロセスが使用しているファイルを確認
 $ lsof -c ruby
+# プロセス番号256に対して
+$ lsof -p 256
 # 全ポートの使用状況を確認
 $ lsof -i
 # ポート80を使用しているプロセスを確認
