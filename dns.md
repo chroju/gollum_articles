@@ -1,4 +1,13 @@
-[DNSの仕組みと運用（1）：DNSの仕組みの基本を理解しよう - ＠IT](http://www.atmarkit.co.jp/ait/articles/0112/18/news001.html)
+DNS
+----
+
+* [DNSの仕組みと運用（1）：DNSの仕組みの基本を理解しよう - ＠IT](http://www.atmarkit.co.jp/ait/articles/0112/18/news001.html)
+* 名前解決。ドメインからのアクセスを適切なIPへ連携するための仕組み。
+
+### レコード
+
+* Zone Apexに対してCNAMEレコードは設定できない。
+  * この仕様はAWSの場合にハマるので注意→ [ドメイン名を使ってEC2を運用していたら、ELBのスケールアウトで苦労した話 - MUGENUP技術ブログ](http://mugenup-tech.hatenadiary.com/entry/2014/05/12/104009)
 
 BIND
 ----
