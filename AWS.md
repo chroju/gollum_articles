@@ -50,6 +50,12 @@ AWSベストプラクティスの適用状態を自動審査してくれるサ�
 
 [AWS再入門 AWS Trusted Advisor編 ｜ Developers.IO](http://dev.classmethod.jp/cloud/aws/cm-advent-calendar-2015-getting-started-again-aws-td/)
 
+### Amazon Route53
+
+* DNSサービス。
+* 単なるDNSサーバーの代替程度に考えていたが、わりと必須に近い。
+* ELBやCloudFrontへのアクセスを独自ドメインで行いたい場合、独自ドメイン→AWS提供外部エンドポイントの転送が必要となるが、通常のDNSサーバーではZone ApexのドメインからCNAMEでホスト名への変換はできない。これを行うには、Route53のALIASレコードという機能を使わなければならない。詳細は [[dns]] も参照。
+
 ### Amazon ElasticBeanstalk
 
 PaaS。アプリを選択するとそれに必要なEC2等を勝手に構築してくれる。デプロイはzipファイルをアップロードするだけでOK。開発、ステージング、本番といった環境の棲み分けもできる（形式としては「アプリケーション」を作成して、その中にzipで配置した各バージョンが存在し、環境に対していずれかのバージョンを充てるということになる）。heroku的だが、構築したリソース分の課金が発生するため注意は必要。
