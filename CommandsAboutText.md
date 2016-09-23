@@ -117,6 +117,12 @@ $ awk '{a += $1; b += $2} END {print a, b}'
 
 [awk のハマるポイントまとめ - Qiita](http://qiita.com/aibou/items/159a18ca70ac87b40bad)
 
+### 数値の出力
+
+デフォルトだと指数表記になるため、OFMTによって調整する。
+
+[awkでの数値演算注意 - Yahoo! JAPAN Tech Blog](http://techblog.yahoo.co.jp/web/auctions/awk/)
+
 ### 参照
 
 * [AWK Users JP :: awk 基礎文法最速マスター](http://gauc.no-ip.org/awk-users-jp/blis.cgi/awk_fastest)
