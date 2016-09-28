@@ -150,4 +150,29 @@ perl-Sys-Syslog-0.33-3.el7.x86_64 : Perl interface to the UNIX syslog(3) calls
 ファイル名    : /usr/lib64/perl5/vendor_perl/Sys/Syslog.pm
 ```
 
- 
+tips
+----
+
+ハッシュ配列で、領域外の添字に対してハッシュのキーにアクセスすると、なぜか配列が伸長する。
+
+```perl
+#!/usr/bin/perl
+
+my @array = ();
+push(@array, {name => 'ken', age => 19});
+push(@array, {name => 'May', age => 23});
+
+print "total: $#array\n";
+print "2: $array[1]->{age}\n";
+print "3: $array[2]->{age}\n";
+print "4: $array[4]->{age}\n";
+print "total: $#array\n";
+```
+
+```
+total: 1
+2: 19
+3:
+4:
+total: 4
+```
