@@ -10,6 +10,8 @@
 ### 演算子
 
 * `.` : 文字列連結
+* 比較演算子が数値と文字列で異なるので注意。
+  数値は`==`, `!=`などの記号を使用、文字列は`eq`や`ne`による比較をする。
 
 ### 変数
 
@@ -38,7 +40,8 @@
 
 ### 引数
 
-* `shift`で第一引数から順に取り出せる。
+* `shift`で第一引数から順に取り出せる。もしくは`@_`を使う。
+* 関数定義で明示的に引数を定義する必要はない。
 
 ```perl
 sub foo {
@@ -47,7 +50,21 @@ sub foo {
 }
 ```
 
+### 型
+
+#### 文字列
+
+[文字列 | Perl 文字の置換、文字の切り取り、文字の検索](http://bi.biopapyrus.net/perl/syntax/strmanu.html)
+
 ### 繰り返し
+
+#### for
+
+```perl
+for ($count = 1; $count < 5; $count++){
+    print "\$count = $count\n";
+}
+```
 
 #### foreach
 
@@ -69,6 +86,7 @@ foreach my $a (@array) {
 ### IO
 
 * `open(handle, filename)` : ファイルオープン。`handle`はファイルの内容を示し、大文字で`FH`や`DAT`などとする慣例。
+　　`filename`は頭に`>> filename`とすると追記など指定でき、何もなければ読み込みになる。
 * `seek(handle, offset, begin)` : ファイル読み込み。`begin`が0で先頭、2で末尾、1で現在位置。`offset`バイト分読み込む。
 * `tell(handle)` : ファイルポインタの現在位置を返す。
 * `close(handle)` : ファイルクローズ。
@@ -79,6 +97,19 @@ foreach my $a (@array) {
 ### chomp / chop
 
 * 末尾の文字を削除。`chomp`は改行文字に限定して削除する。
+
+### sleep
+
+* `sleep 5;`で5秒停止。
+
+### grep
+
+* 配列から条件に一致する要素だけを抜き出す。
+* [Perlで、ある要素が配列(リスト)の中に存在するかを調べる方法 · DQNEO起業日記](http://dqn.sakusakutto.jp/2011/08/perl_10.html)
+
+```perl
+my @result = grep{ $_ eq "hoge" } @array
+```
 
 ### sprintf
 
