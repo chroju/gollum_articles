@@ -37,6 +37,11 @@
   * オプショングループ：AWSが提供しているオプション。MariaDBの監査ログなど。
   * セキュリティグループ、サブネットグループ：その名の通り。
 
+### ストアドプロシージャ
+
+* RDSで渡されるmasterユーザーはSUPER権限を持たないため、一部操作はストアドプロシージャで提供されている。
+* [付録: Amazon RDS での MySQL SQL リファレンス - Amazon Relational Database Service](https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/Appendix.MySQL.SQLRef.html)
+
 監視
 ----
 
