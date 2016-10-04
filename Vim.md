@@ -16,6 +16,13 @@ tips
 
 * [vimでä、ö、ø、åのようにアクセント付き文字やリガチャを入力する方法：miukumaukuの開発ブログ：So-netブログ](http://suomen-kissa.blog.so-net.ne.jp/2015-03-05)
 
+### 文字コード設定
+
+* `set fileencoding|fenc` : カレントバッファのファイルの文字エンコーディング。
+* `set fileencodings|fencs` : ファイル編集時に優先考慮する文字コードの設定。
+* `set encoding|enc` : Vimの内部文字コード。UTF-8推奨。
+* `:e ++enc=utf-8` : カレントバッファのファイルをUTF-8で開き直す。
+
 ### folding
 
 * `zo` : 開く（`zO`ですべて開く）
