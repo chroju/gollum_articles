@@ -68,6 +68,11 @@ grammer
 commnt
 ----
 
+RegExp
+----
+
+* 比較は`=~`演算子で行える。右辺をクォートする必要はない。
+
 input/output
 ----
 
