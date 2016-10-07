@@ -1,3 +1,8 @@
+link
+----
+
+ * [[Kibana]] : Elasticsearchに投入したデータの可視化ツール。
+
 基礎
 ----
 
