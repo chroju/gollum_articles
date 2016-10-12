@@ -56,6 +56,16 @@ sub foo {
 
 [文字列 | Perl 文字の置換、文字の切り取り、文字の検索](http://bi.biopapyrus.net/perl/syntax/strmanu.html)
 
+## 式
+
+### 条件分岐
+
+#### 三項演算子
+
+```perl
+my num = foo > 30 ? "true" : "false"
+```
+
 ### 繰り返し
 
 #### for
