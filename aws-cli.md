@@ -19,6 +19,8 @@ query
 * 表示項目の絞り込みに使用する。
 * [AWS CLI の query による絞り込み - Qiita](http://qiita.com/draco/items/fa09ae0c2f51de9de449)
 * [JMESPath](http://jmespath.org/)というjsonをパースするための書式で指定する。`jq`相当のことは賄えるはず。
+  * 基本的には`.`で階層を下っていき、`[]`で配列内を探索する。
+  * 複数要素にアクセスする際は`{ID: InstanceId, IP: PrivateIpAddress}`のようにKey-Value指定になる。
 
 filters
 ----
