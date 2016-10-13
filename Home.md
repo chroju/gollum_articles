@@ -36,6 +36,7 @@ Tech
 * Middleware
   * [[nginx]]
   * [[Elasticsearch]]
+  * [[fluentd]]
 * Protocol
   * [[snmp]]
   * [[dns]]
