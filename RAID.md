@@ -1,0 +1,1 @@
+[RAIDレベルの話: 1+0と6はどっちが安全か？ - たごもりすメモ](http://tagomoris.hatenablog.com/entry/20110419/1303181958)
