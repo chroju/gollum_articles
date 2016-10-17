@@ -10,6 +10,7 @@ Tech
   * [[Programming Paradigm]]
   * [[ITIL]]
 * Fundamental
+  * [[Hardware]]
   * [[History]]
   * [[Computer]]
   * [[Network]]
