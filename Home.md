@@ -21,7 +21,7 @@ Tech
 * XaaS
   * [[AWS]]
   * [[heroku]]
-* Virtualization
+* [[Virtualization]]
   * [[VMware vSphere]]
   * [[Docker]]
 * Infrastructure as Code
