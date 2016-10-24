@@ -17,6 +17,10 @@ $ journalctl -a
 $ journalctl -u servicename
 ```
 
+### デーモン化
+
+Unitファイルを作成することで任意のサービスのデーモン化が可能→ [Systemdを使ってさくっと自作コマンドをサービス化してみる - Qiita](http://qiita.com/DQNEO/items/0b5d0bc5d3cf407cb7ff)
+
 
 init
 ----
