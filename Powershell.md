@@ -8,14 +8,18 @@
 
 あるオブジェクトが持つメソッドとプロパティは、`Get-Member`で取得できる。
 
-```ps
-> Get-VM | Get-Member -MemberType Property
+```powershell
+Get-VM | Get-Member -MemberType Property
 ```
 
 ### プロパティにアクセスする。
 
 オブジェクトのプロパティには`.`を用いてアクセスできる。またパイプを通じて渡されたオブジェクトは`$_`が割り当てられるので、組み合わせることで個別のプロパティを参照できる。
 
-```ps
-> Get-VM | where {$_.MemoryGB -eq 2}
+#### where
+
+オブジェクトの絞込に使う。比較演算子は`-lt`、`-eq`、`-like`といった文字列型。`-match`で正規表現マッチも使用できる。`-and`や`-or`も使用可能。
+
+```powershell
+Get-VM | where {$_.MemoryGB -eq 2}
 ```
