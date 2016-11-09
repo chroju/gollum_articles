@@ -1,3 +1,9 @@
+### 原点
+
+* [10+ Deploys Per Day: Dev and Ops Cooperation at Flickr](http://www.slideshare.net/jallspaw/10-deploys-per-day-dev-and-ops-cooperation-at-flickr/78)
+  * Flickrが2009年に発表したスライド。
+  * いま読んでもためになる。DevOpsが何なのかがわかる。
+
 ### 前提
 
 * [DevOps とは何か 何であるべきか](http://www.slideshare.net/mizzy/dev-ops-qpstudy)
