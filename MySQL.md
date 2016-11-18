@@ -124,6 +124,13 @@ MySQLの醍醐味？ 基本的なフローは以下。
 * [MySQLリレーログの仕様を学ぶ | OpenGroove](http://open-groove.net/mysql/binlog-relay-log/)
 * [MySQLのレプリケーションでLast_SQL_Errno: 1594が出た場合の対処方法 | Mindcircus.jp](http://www.mindcircus.jp/archives/5758)
 
+my.cnf
+----
+
+設定ファイル。
+
+* [[my.cnf]]
+
 mysqldump
 ----
 
