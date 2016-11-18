@@ -1,11 +1,12 @@
 一覧
 ----
 
-|拡張子|圧縮|解凍|
-|----|----|----|
-|.zip|zip|unzip|
-|.tar.gz|tar cvzf|tar xvzf|
-|.gz|gzip|gunzip, gzip -d|
+|拡張子|圧縮|解凍|概要|
+|----|----|----|----|
+|.tar|tar cvf|tar xvf|複数ファイルをまとめたアーカイブファイル。圧縮機能はない。|
+|.zip|zip|unzip|圧縮機能のあるアーカイブフォーマット。|
+|.tar.gz|tar cvzf|tar xvzf|tarをgzipで圧縮したもの。tarball。|
+|.gz|gzip|gunzip, gzip -d|ファイルアーカイブ機能は持たない圧縮フォーマット。単一ファイルが対象。|
 
 各コマンド
 ----
