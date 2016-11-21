@@ -14,6 +14,7 @@ $ ssh remotehost "cat /tmp/mysqldump | gzip" | zcat | mysql -uroot -ppassword
 * `--master-data=2` : バイナリログのファイル名と開始位置を`CHANGE MASTER TO`句でdumpの中に出力する。`=2`を指定するとコメントとして出力する。`--single-transaction`を指定していない場合は`--lock-all-tables`が有効化される。
 * `--single-transaction` : InnoDBの場合。テーブルロックをせずにdump取得する。デフォルトではREADロックがかかる。
 * `--flush-logs` : 取得開始時にバイナリログをローテーションする。
+* `--extended-insert` : 複数行に渡る`INSERT`文を有効化し、dumpファイルのサイズを抑制する。
 * `--default-character-set` : 文字コードを指定する。
 
 ### 参照
