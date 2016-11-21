@@ -8,6 +8,14 @@ $ mysql -hlocalhsot -uroot -p --default-character-set=utf8 dbname < mysqldump
 $ ssh remotehost "cat /tmp/mysqldump | gzip" | zcat | mysql -uroot -ppassword
 ```
 
+### オプション
+
+* `--all-detabases` : 全データベースからdumpを取る。
+* `--master-data=2` : バイナリログのファイル名と開始位置を`CHANGE MASTER TO`句でdumpの中に出力する。`=2`を指定するとコメントとして出力する。`--single-transaction`を指定していない場合は`--lock-all-tables`が有効化される。
+* `--single-transaction` : InnoDBの場合。テーブルロックをせずにdump取得する。デフォルトではREADロックがかかる。
+* `--flush-logs` : 取得開始時にバイナリログをローテーションする。
+* `--default-character-set` : 文字コードを指定する。
+
 ### 参照
 
 * [MySQL :: MySQL 5.6 リファレンスマニュアル :: 2.11.5 MySQL データベースのほかのマシンへのコピー](https://dev.mysql.com/doc/refman/5.6/ja/copying-databases.html)
