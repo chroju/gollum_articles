@@ -70,7 +70,9 @@ show tables;
 ```
 
 ### ユーザー
-[MySQL の権限のコマンドまとめ。 - Qiita](http://qiita.com/PallCreaker/items/0b02c5f42be5d1a14adb)
+
+* ユーザーは接続元の情報を`root@localhost`のような形で持つ。localhostで全権を持っているユーザーでも、遠隔から接続した際は一切の権限がない、といったことが起こり得る。
+* [MySQL の権限のコマンドまとめ。 - Qiita](http://qiita.com/PallCreaker/items/0b02c5f42be5d1a14adb)
 
 ```
 # 全ユーザーを確認
