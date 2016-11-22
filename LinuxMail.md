@@ -14,7 +14,7 @@ MUA
 Mail User Agent。メールの作成や管理などを行ういわゆるメーラー。`mailx`コマンドを使う場合が多いか。
 
 
-Command
+Tools
 ========
 
 mail(x)
@@ -39,6 +39,11 @@ $ cat mail.txt | sendmail to@example.com
 # -iで本文中の.のみの行をEOF扱いしない。-fでReply-toを指定できる。
 $ sendmail -i -f from@example.com to@example.com
 ```
+
+postfix
+----
+
+* [Postfixで中継サーバ(転送)を噛ます時の設定 - Qiita](http://qiita.com/kenjiskywalker/items/2f00a0ae56136d184993)
 
 周辺知識
 ========
