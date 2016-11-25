@@ -56,6 +56,8 @@ $ du --max-depth=N
 find
 
 ```bash
+# HOMEディレクトリ配下でhogeの名前が入ったファイルを検索
+$ find ~/ -name *hoge*
 # atime（最終アクセス日時）やctime（変更日時）での絞込み
 # 3日以上前の最終アクセスがあるファイル
 $ find -atime +3
