@@ -17,6 +17,8 @@ rpm
 $ rpm -ivh package
 # アップデート
 $ rpm -Uvh package
+# パッケージ情報の表示
+$ rpm- iq package
 # インストール済みの全パッケージを検索
 $ rpm -qa
 # コマンドが属しているパッケージを検索
@@ -30,3 +32,10 @@ $ rpm -e package
 ```bash
 $ rpm -q --changelog glibc
 ```
+
+srpm
+----
+
+RPMパッケージを作成できるソースのパッケージ。拡張子が`.src.rpm`で提供される。`rpmbuild --rebuild`コマンドにより直接インストールするか、一旦`rpm -ivh`コマンドでソースコードを展開し、`/usr/src/redhat/SOURCES`内のソースコード、同一階層の`SPEC`ディレクトリ内のspecファイルを編集してパッケージの作成方法を調整できる。
+
+* [SRPMを使ったパッケージのインストール - tetsuyai’s blog](http://tetsuyai.hatenablog.com/entry/20120106/1325839318)
