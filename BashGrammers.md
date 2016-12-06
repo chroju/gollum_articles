@@ -58,9 +58,12 @@ $ echo ${array}
 foo
 ```
 
-
-list
+hash
 ----
+
+bashでもhashは使える。
+
+* [Bash de hash - ようへいの日々精進XP](http://inokara.hateblo.jp/entry/2014/04/02/221931)
 
 grammer
 ========
