@@ -71,6 +71,10 @@ $ sed -e '/hoge/d'
 $ sed -e 's/abc(.*)def/\1_/g'
 ```
 
+### 注意点
+
+* `'s/${hoge}/fuga/g'`とした際、変数は展開されない。変数を展開させたいときはダブルクォートで囲う必要がある。
+
 ### 参考
 
 * [ワンライナーでお手軽実行可能なsed入門 - Qiita](http://qiita.com/muran001/items/472abcfc353d5df7b77a)
