@@ -6,7 +6,7 @@ tips
 
 * [Qiitaに自分でまとめたやつ](http://qiita.com/chroju/items/7af3fd5faa26de4067f0)
 
-### evalとグロブ展開
+### クォートとグロブ展開と変数展開
 
 アスタリスクによるグロブ展開は、例えば変数に代入するとその段階で評価される。
 
@@ -26,6 +26,20 @@ $ echo $TEXTS
 *.txt baz.txt
 $ eval echo $TEXTS
 foo.txt bar.txt baz.txt
+```
+
+クォートはシングルだと変数展開もされなくなる。変数は展開し、グロブは展開したくない際はダブルクォートを使う。
+
+
+```bash
+$ hoge=log
+$ fuga=*.${hoge}
+$ echo $fuga
+access.log error.log
+$ echo "$fuga"
+*.log
+$ echo '$fuga'
+$fuga
 ```
 
 ShellScript
