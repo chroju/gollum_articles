@@ -6,6 +6,7 @@ MySQL
 
 * [[Could not find first log file name]]
 * [[REP再開時のmax_allowed_packetの調整|Mysql_eplication_and_max_allowed_packet]]
+* [[monitoring mysql]]
 
 特徴
 ----
