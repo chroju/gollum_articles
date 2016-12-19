@@ -1,0 +1,2 @@
+* [第12回　MySQLのヘルスチェックをする［死活監視の基礎編］：MySQL道普請便り｜gihyo.jp … 技術評論社](http://gihyo.jp/dev/serial/01/mysql-road-construction-news/0012)
+* [MySQLエラーログに出てきたエラーコードのとっかかり - b.l0g.jp](http://b.l0g.jp/mysql/diagnosing-with-perror-command/)
