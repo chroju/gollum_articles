@@ -61,9 +61,13 @@ foo
 hash
 ----
 
-bashでもhashは使える。
+bashでもversion4.xであればhashは使える。
 
 * [Bash de hash - ようへいの日々精進XP](http://inokara.hateblo.jp/entry/2014/04/02/221931)
+
+bash3.xでは少し工夫すればそれっぽいことはできる。
+
+* [bashでハッシュ(連想配列的な意味で) - jitsu102の日記](http://d.hatena.ne.jp/jitsu102/20101024/1287893707)
 
 grammer
 ========
