@@ -44,11 +44,7 @@ EC2のサービス範囲
 設定
 ----
 
-### インスタンスメタデータ
-
-インスタンス内部から http://169.254.169.254/latest/meta-data/ にアクセスすることで、インスタンスの情報を取得することができる。
-
-* [インスタンスメタデータとユーザーデータ - Amazon Elastic Compute Cloud](http://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/ec2-instance-metadata.html)
+### 
 
 ### 設定変更
 
