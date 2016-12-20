@@ -41,8 +41,16 @@ EC2のサービス範囲
 * 現在はPVはおそらく選択できない。
   古いAMIでPVのものがあるが、作成する場合は最近の（x2系）インスタンスタイプは使用できない。
 
-設定変更
+設定
 ----
+
+### インスタンスメタデータ
+
+インスタンス内部から http://169.254.169.254/latest/meta-data/ にアクセスすることで、インスタンスの情報を取得することができる。
+
+* [インスタンスメタデータとユーザーデータ - Amazon Elastic Compute Cloud](http://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/ec2-instance-metadata.html)
+
+### 設定変更
 
 [EC2起動後に、後からできること・できないこと - 続 カッコの付け方](http://iga-ninja.hatenablog.com/entry/2014/10/30/000000)
 
