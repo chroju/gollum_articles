@@ -68,3 +68,7 @@ Deployment
 環境変数を使って読み込む。
 
 * [設定を読み込む Hubot スクリプトをつくろう - Qiita](http://qiita.com/bouzuya/items/d65a394cac9e76b56d3d)
+
+### Basic認証したい
+
+* [HubotのHTTPクライアントでBasic認証 - Qiita](http://qiita.com/_mmasaki/items/f2233dfd3965fbc78443)
