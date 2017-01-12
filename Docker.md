@@ -60,3 +60,8 @@ Alpine Linux
 * パッケージ管理は`apk`。
 * crontabで実行させたいものは`/etc/periodic`配下へスクリプトを設置する。
   * スクリプトは拡張子を持ってはならない。
+
+こんなときは
+----
+
+* [Dockerの時刻 - Qiita](http://qiita.com/HommaHomma/items/c6dbb554afb51f1b95d5)
